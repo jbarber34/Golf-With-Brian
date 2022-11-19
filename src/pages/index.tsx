@@ -1,19 +1,17 @@
-// import Contact from '~/components/ui/Contact';
-import Brands from '~/components/ui/Brands';
-import Collections from '~/components/ui/Collections';
+import Features from '~/components/ui/Features';
 import Services from '~/components/ui/Services';
 import Testimonials from '~/components/ui/Testimonials';
 import Title from '~/components/ui/Title';
+import Lessons from '~/components/ui/Lessons';
 
 function Home() {
   return (
     <div>
       <Title />
-      <Collections />
-      <Brands />
+      <Features />
       <Services />
       <Testimonials />
-      {/* <Contact /> */}
+      <Lessons />
     </div>
   );
 }

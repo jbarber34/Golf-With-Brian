@@ -5,9 +5,8 @@ module.exports = {
     extend: {
       colors: {
         brianBlue: '#2e4c6d',
-        twinsBlue: '#002b5c',
-        twinsRed: '#d31145',
-        twinsGold: '#B9975B',
+        brightBlue: '#396eb0',
+        gwbGreen: '#59A537',
       },
       borderWidth: {
         16: '16px',
