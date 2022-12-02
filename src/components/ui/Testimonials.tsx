@@ -9,6 +9,7 @@ import {
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-regular-svg-icons';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 export default function Testimonials() {
   return (
@@ -18,7 +19,7 @@ export default function Testimonials() {
           <div className='w-1/3 bg-white h-full' />
           <div className='w-4/6 ml-16 bg-gray-100 h-full' />
         </div>
-        <div className='bg-brightBlue xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40'>
+        <div className='bg-brightBlue xl:px-20 px-8 py-20 2xl:mx-auto relative z-40'>
           {/* @ts-ignore */}
           <CarouselProvider
             naturalSlideWidth={100}
@@ -131,10 +132,12 @@ export default function Testimonials() {
                 role='button'
                 aria-label='previous slide'
               >
-                <img
-                  src='https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonal-svg2.svg'
-                  alt='previous'
-                />
+                <i>
+                  <FontAwesomeIcon
+                    icon={faArrowLeft}
+                    className='text-xs text-white'
+                  />
+                </i>
               </ButtonBack>
 
               <ButtonNext
@@ -142,25 +145,15 @@ export default function Testimonials() {
                 aria-label='next slide'
                 className='cursor-pointer ml-2'
               >
-                <img
-                  src='https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg3.svg'
-                  alt='next'
-                />
+                <i>
+                  <FontAwesomeIcon
+                    icon={faArrowRight}
+                    className='text-2xl text-white'
+                  />
+                </i>
               </ButtonNext>
             </div>
           </CarouselProvider>
-        </div>
-      </div>
-      <div className='h-full mx-8 bg-brianBlue text-white flex flex-col justify-between min-w-min'>
-        <div className='text-center my-auto px-4 pb-12'>
-          <img src='/GWB_Grey.png' alt='engagement ring' width={175} />
-          <p>Choose our</p>{' '}
-          <p className='text-gwbGreen text-2xl font-extrabold'>5 YEAR </p>{' '}
-          <p>payment plan at 9.99% </p> <p className='cursiveFont'>or</p>
-          <p className='text-gwbGreen text-2xl font-extrabold'>
-            12 MONTHS{' '}
-          </p>{' '}
-          <p>0% interest financing</p>
         </div>
       </div>
     </div>
