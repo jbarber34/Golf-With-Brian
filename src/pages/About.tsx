@@ -3,14 +3,14 @@ export default function About() {
     <div>
       <section id='aboutBrian'>
         <div className='lg:px-36 pt-12 pb-8'>
+          <h1
+            className='container-fluid text-center text-3xl mt-8
+        before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-gwbGreen before:mb-2 before:mr-8
+        after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-gwbGreen after:mb-2 after:ml-8'
+          >
+            About Brian
+          </h1>
           <div className='px-36 bg-white'>
-            <h1
-              className='container-fluid text-center text-3xl mt-8
-        before:inline-block before:lg:w-52 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-gwbGreen before:mb-2 before:mr-8
-        after:inline-block after:lg:w-52 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-gwbGreen after:mb-2 after:ml-8'
-            >
-              About Brian
-            </h1>
             <p className='py-4 bg-white indent-8'>
               Brian grew up in a small town in Upstate NY called Margaretville.
               He was a star baseball player and an honor roll student who spent
