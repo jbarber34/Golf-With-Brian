@@ -16,6 +16,22 @@ module.exports = {
         '4xl': '2.441rem',
         '5xl': '3.052rem',
       },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+        bump: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '10%': { transform: 'scale(0.9)' },
+          '30%': { transform: 'scale(1.1)' },
+          '50%': { transform: 'scale(1.15)' },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+        bump: 'bump 1s ease-out',
+      },
     },
   },
   plugins: [],
