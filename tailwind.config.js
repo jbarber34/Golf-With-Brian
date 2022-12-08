@@ -16,6 +16,9 @@ module.exports = {
         '4xl': '2.441rem',
         '5xl': '3.052rem',
       },
+      margin: {
+        '134': '40rem',
+      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },
