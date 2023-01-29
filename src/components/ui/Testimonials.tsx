@@ -25,6 +25,8 @@ export default function Testimonials() {
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
             totalSlides={2}
+            isPlaying
+            interval={4000}
           >
             <h1 className='text-5xl text-center font-bold xl:block hidden leading-tight text-white'>
               What our customers are saying
