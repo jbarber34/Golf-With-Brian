@@ -12,7 +12,7 @@ export default function About() {
           src='../../sponsor_gear.png'
           width={200}
           alt='Brian Sponsor Gear'
-          className='float-right mt-134 mr-12 sm:pl-4 lg:pl-0'
+          className='float-right mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0'
         />
         <div className='lg:px-36 pt-12 pb-8'>
           <h1
