@@ -17,7 +17,7 @@ export default function Contact() {
             <Map />{' '} */}
         </div>
         <div className='mb-12 lg:mt-12 lg:mx-auto border-16 border-black lg:max-w-screen-sm'>
-          <h1 className='text-center ml-2 mt-2 text-2xl'> Contact Us </h1>
+          <h1 className='text-center ml-2 mt-2 text-2xl'> Contact Brian </h1>
           <table cellPadding={6} className='m-auto'>
             <tbody>
               <tr>
@@ -37,7 +37,7 @@ export default function Contact() {
                   />
                 </td>
                 <td>
-                  618 E Bidwell St. <br /> Folsom, CA 95630
+                  555 Golf Dr. <br /> Ft. Myers, FL 33905
                 </td>
               </tr>
             </tbody>
