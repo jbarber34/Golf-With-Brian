@@ -79,15 +79,25 @@ export default function Testimonials() {
                           I love the feedback that Brian gives!
                         </h1>
                         <p className='text-base font-medium leading-6 mt-4 text-gray-300'>
-                        Brian has been coaching my son Brennen for the last 6 months. My son was an intermediate golfer 
-                        who had been in a few golf tournaments, but had also grown 8 inches in one year. We needed a swing overhaul. 
-                        Brennen had seen a few different coaches before Brian, but after just one session with Brian saw results and 
-                        really liked his coaching style. After that first session, Brian worked with me to come up with a training plan 
-                        for Brennen that worked with our schedule and budget. Brian was able to fit golf clubs for Brennen to get him using 
-                        the right equipment as he really worked on Brennen's fundamentals. I love the feedback that Brian gives, with written 
-                        reports on what he worked on, videos to show mechanics, and what my son needs to practice for the next time. Brian mixes 
-                        golf improvement tools along with just solid functional swing patterns to help Brennen improve his game. Brennen is 
-                        looking forward to his spring golf season as well as leading his 8th grade golf team. 
+                          Brian has been coaching my son Brennen for the last 6
+                          months. My son was an intermediate golfer who had been
+                          in a few golf tournaments, but had also grown 8 inches
+                          in one year. We needed a swing overhaul. Brennen had
+                          seen a few different coaches before Brian, but after
+                          just one session with Brian saw results and really
+                          liked his coaching style. After that first session,
+                          Brian worked with me to come up with a training plan
+                          for Brennen that worked with our schedule and budget.
+                          Brian was able to fit golf clubs for Brennen to get
+                          him using the right equipment as he really worked on
+                          Brennen's fundamentals. I love the feedback that Brian
+                          gives, with written reports on what he worked on,
+                          videos to show mechanics, and what my son needs to
+                          practice for the next time. Brian mixes golf
+                          improvement tools along with just solid functional
+                          swing patterns to help Brennen improve his game.
+                          Brennen is looking forward to his spring golf season
+                          as well as leading his 8th grade golf team.
                         </p>
                       </div>
                       <div className='mt-8'>
@@ -111,21 +121,24 @@ export default function Testimonials() {
                     <div className='w-full xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between'>
                       <div>
                         <h1 className='text-2xl font-semibold xl:leading-loose text-white'>
-                          Some of the best work that was done!
+                          Brian is a great motivator!
                         </h1>
                         <p className='text-base font-medium leading-6 mt-4 text-gray-300'>
-                          Our core values are at the heart of all that we do.
-                          They are integrated into our daily work lives and help
-                          us to remember our customers always comes first, the
-                          last thank you should always comes from us.
+                          Brian is my fourth swing teacher, he took me from a 10
+                          handicap to a 5! He has worked with some of the best
+                          in the game and now I know why. You shouldn't be
+                          afraid to ask Brian questions, he will take the time
+                          to answer with deeply thought out answers. I HIGHLY
+                          recommend Brian, beginner or advance, man, women, or
+                          youth, he's great with everyone!
                         </p>
                       </div>
                       <div className='mt-8'>
                         <p className='text-base font-medium leading-4 text-white'>
-                          Anna Smith
+                          Mitch Zehr
                         </p>
                         <p className='text-base leading-4 mt-2 mb-4 text-gray-300'>
-                          Senior Web Designer
+                          North Ft. Myers, FL
                         </p>
                       </div>
                     </div>
