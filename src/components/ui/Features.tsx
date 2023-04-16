@@ -19,7 +19,7 @@ export default function Features() {
             </i>
             <h3 className='text-2xl font-black'>Easy to learn.</h3>
             <p className='px-20 w-80 mx-auto'>
-              So easy to use, even your dog could lower its score.
+              Provides easy to follow details and examples.
             </p>
           </div>
           <div className='mx-auto'>
