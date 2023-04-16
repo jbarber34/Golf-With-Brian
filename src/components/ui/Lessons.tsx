@@ -92,15 +92,28 @@ export default function Lessons({
   };
   return (
     <section id='lessons' className='my-20 text-center'>
+      <meta
+        name='Golf Lessons'
+        content='This section lists the different golf lesson packages Golf with Brian offers.'
+      />
       <h2
         className='font-black text-5xl pb-4 container-fluid text-center text-3xl mt-8
-        before:inline-block before:xl:w-44 before:lg:w-28 before:md:w-12 before:sm:w-24 before:w-24 before:h-1 before:bg-gwbGreen before:mb-2 before:mr-8
-        after:inline-block after:xl:w-44 after:lg:w-28 after:md:w-12 after:sm:w-24 after:w-24 after:h-1 after:bg-gwbGreen after:mb-2 after:ml-8'
+        before:inline-block before:xl:w-44 before:lg:w-28 before:md:w-12 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
+        after:inline-block after:xl:w-44 after:lg:w-28 after:md:w-12 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
       >
         A Plan for Every Golfer's Needs
       </h2>
+      <meta
+        name='Lehigh Acres/Ft. Myers location'
+        content='Golf with Brian lessons are located in Lehigh Acres/Fort Myers in Lee County Florida'
+      />
+
       <p className='text-gray-500'>
-        Simple and affordable price plans for any skill level.
+        Simple and affordable price plans for any skill level. <br />
+        All lessons held at{' '}
+        <a href='https://westminster-golf.com/' className='hover:underline'>
+          The Club at Westminster
+        </a>
       </p>
 
       <div
@@ -371,7 +384,7 @@ export default function Lessons({
               ></LessonPlanModal>
             </div>
           </div>
-          <div className='text-xs text-gray-500 text-left pl-4'>
+          <div className='text-xs text-gray-500 text-left pl-4 pb-4'>
             *All perks from the plan must be used between the first and last
             lesson
           </div>

@@ -8,6 +8,10 @@ import {
 export default function Features() {
   return (
     <section id='brands'>
+      <meta
+        name='Golf With Brian Golf Swing Lessons'
+        content='This section lists the features Golf with Brian offers. Brian has worked with PGA, LPGA tour players, along with David Leadbetter to perfect his program. Add distance to your drive, fix your slice, and perfect your short game.'
+      />
       <div className='md:px-12 py-40'>
         <div className='grid md:grid-cols-3 sm:grid-cols-1 xl:mx-56 md:mx-2 gap-4 text-center'>
           <div className='mx-auto'>

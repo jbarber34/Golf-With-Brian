@@ -29,7 +29,7 @@ export default function ScrollButton() {
           icon={faArrowUp}
           inverse
           onClick={goToTop}
-          className='hover:animate-wiggle fa-xl py-2 px-4 bg-brianBlue font-gwbRed fixed bottom-10 right-6 z-50'
+          className='hover:animate-wiggle fa-xl py-2 px-4 bg-brianBlue fixed bottom-10 right-6 z-50'
         />
       )}
     </div>

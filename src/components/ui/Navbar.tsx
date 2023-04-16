@@ -106,7 +106,7 @@ export function Navbar() {
               <Link href='/'>
                 <a
                   className={
-                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-gwbGreen hover:bg-gray-50 hover:text-gray-800'
+                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-golfWithBrianGreen hover:bg-gray-50 hover:text-gray-800'
                   }
                 >
                   Home
@@ -115,7 +115,7 @@ export function Navbar() {
               <Link href='/About'>
                 <a
                   className={
-                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-gwbGreen hover:bg-gray-50 hover:text-gray-800'
+                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-golfWithBrianGreen hover:bg-gray-50 hover:text-gray-800'
                   }
                 >
                   About Brian
@@ -124,7 +124,7 @@ export function Navbar() {
               <Link href='/#lessons'>
                 <a
                   className={
-                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-gwbGreen hover:bg-gray-50 hover:text-gray-800'
+                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-golfWithBrianGreen hover:bg-gray-50 hover:text-gray-800'
                   }
                 >
                   Lessons
@@ -133,7 +133,7 @@ export function Navbar() {
               <Link href='/#sponsors'>
                 <a
                   className={
-                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-gwbGreen hover:bg-gray-50 hover:text-gray-800'
+                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-golfWithBrianGreen hover:bg-gray-50 hover:text-gray-800'
                   }
                 >
                   Sponsors
@@ -142,7 +142,7 @@ export function Navbar() {
               <Link href='/#contact'>
                 <a
                   className={
-                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-gwbGreen hover:bg-gray-50 hover:text-gray-800'
+                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-golfWithBrianGreen hover:bg-gray-50 hover:text-gray-800'
                   }
                 >
                   Contact Brian

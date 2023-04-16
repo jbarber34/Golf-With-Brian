@@ -2,23 +2,27 @@ export default function About() {
   return (
     <div>
       <section id='aboutBrian'>
+        <meta
+          name='About Golf with Brian owner Brian Conine'
+          content='Golf with Brian specializes in striking irons better, driving the ball further, as well as players that want to "fix my slice".'
+        />
         <img
           src='../../brian_swing.png'
           width={200}
-          alt='Brian Swinging Club'
+          alt='Brian on the range at The Club at Westminster'
           className='float-left mt-96 ml-12 sm:pr-4 lg:pr-0'
         />
         <img
           src='../../sponsor_gear.png'
           width={200}
-          alt='Brian Sponsor Gear'
+          alt='Titleist Golf Balls and Cobra Golf Sponsor Gear'
           className='float-right mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0'
         />
         <div className='lg:px-36 pt-12 pb-8'>
           <h1
             className='container-fluid text-center text-3xl mt-8
-        before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-gwbGreen before:mb-2 before:mr-8
-        after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-gwbGreen after:mb-2 after:ml-8'
+        before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
+        after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
           >
             About Brian
           </h1>
