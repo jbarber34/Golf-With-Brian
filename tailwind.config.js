@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         brianBlue: '#2e4c6d',
         brightBlue: '#396eb0',
-        gwbGreen: '#59A537',
+        golfWithBrianGreen: '#59A537',
       },
       borderWidth: {
         16: '16px',
