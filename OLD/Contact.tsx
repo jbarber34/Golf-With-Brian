@@ -37,7 +37,8 @@ export default function Contact() {
                   />
                 </td>
                 <td>
-                  555 Golf Dr. <br /> Ft. Myers, FL 33905
+                  The Club at Westminster <br /> 2199 Berkley Way <br /> Lehigh
+                  Acres, FL 33973
                 </td>
               </tr>
             </tbody>
