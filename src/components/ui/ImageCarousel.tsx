@@ -44,6 +44,18 @@ const images = [
     url: '/CarouselImages/titleist_balls.png',
     title: 'Titleist Golf Balls and Cobra Golf Sponsor Gear',
   },
+  {
+    url: '/CarouselImages/gwb_sponsored_golfer1.jpeg',
+    title: 'Golf with Brian Sponsored Golfer',
+  },
+  {
+    url: '/CarouselImages/gwb_sponsored_golfer2.jpeg',
+    title: 'Golf with Brian Sponsored Golfer',
+  },
+  {
+    url: '/CarouselImages/gwb_sponsored_golfer3.jpg',
+    title: 'Golf with Brian Sponsored Golfer',
+  },
 ];
 
 export default function ImageCarousel() {
