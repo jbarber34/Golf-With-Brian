@@ -29,8 +29,8 @@ export default function About() {
           <div className='px-36 bg-white'>
             <h3
               className='container-fluid text-3xl mt-8
-        before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianRed before:mb-2 before:mr-8
-        after:inline-block after:lg:w-24 after:md:w-20 after:sm:w-12 after:w-12 after:h-1 after:bg-golfWithBrianRed after:mb-2 after:ml-8'
+        before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
+        after:inline-block after:lg:w-24 after:md:w-20 after:sm:w-12 after:w-12 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
             >
               Brian
             </h3>
@@ -129,8 +129,8 @@ export default function About() {
             <hr />
             <h3
               className='container-fluid text-3xl mt-8
-        before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianRed before:mb-2 before:mr-8
-        after:inline-block after:lg:w-24 after:md:w-20 after:sm:w-12 after:w-12 after:h-1 after:bg-golfWithBrianRed after:mb-2 after:ml-8'
+        before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
+        after:inline-block after:lg:w-24 after:md:w-20 after:sm:w-12 after:w-12 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
             >
               Phil
             </h3>
