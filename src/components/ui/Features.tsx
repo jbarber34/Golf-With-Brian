@@ -21,7 +21,7 @@ export default function Features() {
                 className='text-7xl text-brightBlue mb-4'
               />
             </i>
-            <h3 className='text-2xl font-black'>Easy to learn.</h3>
+            <h3 className='text-2xl font-black'>Quality Instruction</h3>
             <p className='px-20 w-80 mx-auto'>
               Provides easy to follow details and examples.
             </p>
@@ -45,9 +45,9 @@ export default function Features() {
                 className='text-7xl text-brightBlue mb-4'
               />
             </i>
-            <h3 className='text-2xl font-black'>Guaranteed to work.</h3>
+            <h3 className='text-2xl font-black'>Unmatched Services</h3>
             <p className='px-20 w-80 mx-auto'>
-              Improve your drive distance or your money back.
+              From fittings to lessons, our service can’t be beat.
             </p>
           </div>
         </div>
