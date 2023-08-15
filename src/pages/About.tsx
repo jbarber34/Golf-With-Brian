@@ -1,6 +1,15 @@
 export default function About() {
   return (
     <div>
+      <div className='lg:px-36 pt-16 bg-white'>
+        <h1
+          className='container-fluid text-center text-3xl mt-8
+          before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
+          after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
+        >
+          Meet Our Team
+        </h1>
+      </div>
       <section id='aboutBrian'>
         <meta
           name='About Golf with Brian owner Brian Conine'
@@ -10,23 +19,17 @@ export default function About() {
           src='../../brian_swing.png'
           width={200}
           alt='Brian on the range at The Club at Westminster'
-          className='float-left mt-96 ml-12 sm:pr-4 lg:pr-0'
+          className='lg:float-left lg:mt-96 ml-12 sm:pr-4 lg:pr-0'
         />
         <img
           src='../../sponsor_gear.png'
           width={200}
           alt='Titleist Golf Balls and Cobra Golf Sponsor Gear'
-          className='float-right mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0'
+          className='hidden lg:float-right lg:inline lg:mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0'
         />
-        <div className='lg:px-36 pt-12 pb-8 bg-white'>
-          <h1
-            className='container-fluid text-center text-3xl mt-8
-        before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
-        after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
-          >
-            Meet Our Team
-          </h1>
-          <div className='px-36 bg-white'>
+
+        <div className='px-4 lg:px-36 py-8 pb-8 bg-white'>
+          <div className='px-4 lg:px-36 bg-white'>
             <h3
               className='container-fluid text-3xl mt-8
         before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
@@ -126,7 +129,19 @@ export default function About() {
               </em>{' '}
               .
             </p>
-            <hr />
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id='aboutPhil'>
+        <img
+          src='../../gwb_phil.jpg'
+          width={200}
+          alt='Golf with Brian Program Instructor Phil'
+          className='lg:float-left mt-4 lg:mt-32 ml-12 sm:pr-4 lg:pr-0'
+        />
+        <div className='px-4 lg:px-36 pt-4 lg:pt-8 pb-8 bg-white'>
+          <div className='lg:px-36 bg-white'>
             <h3
               className='container-fluid text-3xl mt-8
         before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
@@ -134,6 +149,24 @@ export default function About() {
             >
               Phil
             </h3>
+            <p className='py-4 bg-white indent-8'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p className='py-4 bg-white indent-8'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
         </div>
       </section>
