@@ -150,22 +150,20 @@ export default function About() {
               Phil
             </h3>
             <p className='py-4 bg-white indent-8'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              As a Naples native, Phil has seen all sorts of change in the
+              growing area but one thing that hasn’t changed is how our bodies
+              work. Phil is not only TPI Level 1, but he is Level 2 TPI
+              (Titleist Performance Institute). Working with golfers for years
+              correcting their body movement but more importantly explaining to
+              them the importance of body mobility and stability throughout the
+              golf swing to produce a good golf shot.
             </p>
             <p className='py-4 bg-white indent-8'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Phil specializes in understanding the correlation between a
+              golfer’s physical limitations and their swing flaws. With the
+              correct simple exercises Phil can eliminate those limitations and
+              correct your golf swing. Phil’s truth is, fix your body and you
+              can fix your swing!
             </p>
           </div>
         </div>
