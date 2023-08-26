@@ -12,7 +12,7 @@ export default function Title() {
         <div className='grid grid-cols-1 xl:grid-cols-2 justify-between pt-12'>
           <div className='xl:text-2xl w-64'>
             <Link href='https://www.cobragolf.com/'>
-              <button className='bg-slate-900 border-solid border-2 border-slate-900 hover:bg-twinsGold text-white font-bold py-2 px-4 rounded-md'>
+              <button className='bg-slate-900 border-solid border-2 border-slate-900 hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded-md'>
                 <a>
                   <FontAwesomeIcon icon={faGolfBall} className='fa-md' />{' '}
                   Cobra/Puma
@@ -22,7 +22,7 @@ export default function Title() {
           </div>
           <div className='xl:text-2xl w-64 pt-4 xl:pt-0'>
             <Link href='https://www.aero-swing.com/'>
-              <button className='bg-clear border-solid border-2 hover:bg-twinsGold text-white font-bold py-2 px-4 rounded-md'>
+              <button className='bg-clear border-solid border-2 hover:border-black hover:text-black text-white font-bold py-2 px-4 rounded-md'>
                 <a>
                   <FontAwesomeIcon icon={faGolfBall} className='fa-md' />{' '}
                   Aero-Swing
@@ -31,28 +31,6 @@ export default function Title() {
             </Link>
           </div>
         </div>
-        {/* <ul className='items-center flex mt-4 space-x-6 space-y-0 min-w-full'>
-          <li className='text-black'>
-            <Link href='https://www.cobragolf.com/'>
-              <button className='bg-slate-900 hover:bg-twinsGold text-white font-bold py-2 px-4 rounded-md'>
-                <a>
-                  <FontAwesomeIcon icon={faGolfBall} className='fa-md' />{' '}
-                  Cobra/Puma
-                </a>
-              </button>
-            </Link>
-          </li>
-          <li className='text-black'>
-            <Link href='https://www.aero-swing.com/'>
-              <button className='bg-clear border-solid border-2 hover:bg-twinsGold text-white font-bold py-2 px-4 rounded-md'>
-                <a>
-                  <FontAwesomeIcon icon={faGolfBall} className='fa-md' />{' '}
-                  Aero-Swing
-                </a>
-              </button>
-            </Link>
-          </li>
-        </ul> */}
       </div>
       <div>
         <img
