@@ -34,8 +34,8 @@ export function Navbar() {
                   <a
                     className={
                       router.pathname == '/'
-                        ? 'inline-flex items-center border-b-2 border-legacyGold px-1 pt-1 text-sm font-medium text-white'
-                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-legacyGold hover:text-legacyGold'
+                        ? 'inline-flex items-center border-b-2 border-golfWithBrianRed px-1 pt-1 text-sm font-medium text-white'
+                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-golfWithBrianRed hover:text-golfWithBrianRed'
                     }
                   >
                     Home
@@ -45,8 +45,8 @@ export function Navbar() {
                   <a
                     className={
                       router.pathname == '/About'
-                        ? 'inline-flex items-center border-b-2 border-legacyGold px-1 pt-1 text-sm font-medium text-white'
-                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-legacyGold hover:text-legacyGold'
+                        ? 'inline-flex items-center border-b-2 border-golfWithBrianRed px-1 pt-1 text-sm font-medium text-white'
+                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-golfWithBrianRed hover:text-golfWithBrianRed'
                     }
                   >
                     About
@@ -56,8 +56,8 @@ export function Navbar() {
                   <a
                     className={
                       router.pathname == '/#lessons'
-                        ? 'inline-flex items-center border-b-2 border-legacyGold px-1 pt-1 text-sm font-medium text-white'
-                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-legacyGold hover:text-legacyGold'
+                        ? 'inline-flex items-center border-b-2 border-golfWithBrianRed px-1 pt-1 text-sm font-medium text-white'
+                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-golfWithBrianRed hover:text-golfWithBrianRed'
                     }
                   >
                     Lessons
@@ -67,8 +67,8 @@ export function Navbar() {
                   <a
                     className={
                       router.pathname == '/#sponsors'
-                        ? 'inline-flex items-center border-b-2 border-legacyGold px-1 pt-1 text-sm font-medium text-white'
-                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-legacyGold hover:text-legacyGold'
+                        ? 'inline-flex items-center border-b-2 border-golfWithBrianRed px-1 pt-1 text-sm font-medium text-white'
+                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-golfWithBrianRed hover:text-golfWithBrianRed'
                     }
                   >
                     Sponsors
@@ -78,8 +78,8 @@ export function Navbar() {
                   <a
                     className={
                       router.pathname == '/#contact'
-                        ? 'inline-flex items-center border-b-2 border-legacyGold px-1 pt-1 text-sm font-medium text-white'
-                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-legacyGold hover:text-legacyGold'
+                        ? 'inline-flex items-center border-b-2 border-golfWithBrianRed px-1 pt-1 text-sm font-medium text-white'
+                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-golfWithBrianRed hover:text-golfWithBrianRed'
                     }
                   >
                     Contact Brian
@@ -88,7 +88,7 @@ export function Navbar() {
               </div>
               <div className='flex items-center lg:hidden'>
                 {/* Mobile menu button */}
-                <Disclosure.Button className='inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-legacyGold'>
+                <Disclosure.Button className='inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-golfWithBrianRed'>
                   <span className='sr-only'>Open main menu</span>
                   {open ? (
                     <XMarkIcon className='block h-6 w-6' aria-hidden='true' />
