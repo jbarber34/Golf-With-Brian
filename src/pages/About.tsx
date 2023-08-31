@@ -6,7 +6,7 @@ export default function About() {
     <div>
       <div className='lg:px-36 pt-16 bg-white'>
         <h1
-          className='container-fluid text-center text-3xl mt-8
+          className='container-fluid text-center text-xl lg:text-3xl mt-8
           before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
           after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
         >
