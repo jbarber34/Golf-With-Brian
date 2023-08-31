@@ -187,7 +187,7 @@ export default function Lessons({
       </p>
       {/* New 8/12 Setup */}
       <div className='grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
-        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Basic Lesson
           </p>
@@ -210,7 +210,7 @@ export default function Lessons({
           </div>
         </div>
 
-        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Junior (16 & Under)
           </p>
@@ -232,7 +232,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Playing Lesson
           </p>
@@ -261,7 +261,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Sampler Package
           </p>
@@ -284,7 +284,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Area Focus Training
           </p>
@@ -316,7 +316,7 @@ export default function Lessons({
             </div>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
+        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-100'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Fittings
           </p>
@@ -622,7 +622,7 @@ export default function Lessons({
 
       {/* EXAMPLE CARDS */}
       {/* <div className='grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700'>
+        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             3-Lessons
           </p>
@@ -641,13 +641,13 @@ export default function Lessons({
             </p>
             <button
               type='button'
-              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
+              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
             >
               Learn More
             </button>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700'>
+        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Local Legend
           </p>
@@ -666,13 +666,13 @@ export default function Lessons({
             </p>
             <button
               type='button'
-              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
+              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
             >
               Learn More
             </button>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700'>
+        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             PGA Tour
           </p>
@@ -691,13 +691,13 @@ export default function Lessons({
             </p>
             <button
               type='button'
-              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
+              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
             >
               Learn More
             </button>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700'>
+        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Casual
           </p>
@@ -716,13 +716,13 @@ export default function Lessons({
             </p>
             <button
               type='button'
-              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
+              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
             >
               Learn More
             </button>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700'>
+        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Casual
           </p>
@@ -741,7 +741,7 @@ export default function Lessons({
             </p>
             <button
               type='button'
-              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
+              className='py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none rounded-lg border border-gray-200 hover:bg-gray-700 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-700 w-56'
             >
               Learn More
             </button>
