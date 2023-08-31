@@ -40,11 +40,11 @@ const images = [
     title: 'Titleist Golf Balls and Cobra Golf Sponsor Gear',
   },
   {
-    url: '/CarouselImages/gwb_sponsored_golfer1.jpeg',
+    url: '/CarouselImages/gwb_sponsored_golfer1.png',
     title: 'Golf with Brian Sponsored Golfer',
   },
   {
-    url: '/CarouselImages/gwb_sponsored_golfer2.jpeg',
+    url: '/CarouselImages/gwb_sponsored_golfer2.png',
     title: 'Golf with Brian Sponsored Golfer',
   },
   // {
