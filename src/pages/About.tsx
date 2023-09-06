@@ -20,9 +20,10 @@ export default function About() {
         />
         <div className='lg:float-left lg:mt-96 ml-12 sm:pr-4 lg:pr-0'>
           <img
-            src='../../brian_swing.png'
+            src='../../brian_cobra.png'
             width={200}
             alt='Brian on the range at The Club at Westminster'
+            className='rounded-md'
           />
           <p>Contact Brian: </p>
           <a
@@ -50,7 +51,7 @@ export default function About() {
           src='../../sponsor_gear.png'
           width={200}
           alt='Titleist Golf Balls and Cobra Golf Sponsor Gear'
-          className='hidden lg:float-right lg:inline lg:mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0'
+          className='hidden lg:float-right lg:inline lg:mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0 rounded-md'
         />
 
         <div className='px-4 lg:px-56 py-8 pb-8 bg-white'>
@@ -164,7 +165,7 @@ export default function About() {
             src='../../gwb_phil.jpg'
             width={200}
             alt='Golf with Brian Program Instructor Phil'
-            className='mb-4'
+            className='mb-4 rounded-md'
           />
           <p>Contact Phil: </p>
           <a

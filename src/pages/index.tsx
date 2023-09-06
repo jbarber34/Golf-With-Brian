@@ -18,8 +18,8 @@ function Home() {
     { open: modalPlayingOpen, close: modalPlayingClosed },
   ] = useDisclosure(false);
   const [
-    modalSamplerIsOpen,
-    { open: modalSamplerOpen, close: modalSamplerClosed },
+    modalAcceleratorIsOpen,
+    { open: modalAcceleratorOpen, close: modalAcceleratorClosed },
   ] = useDisclosure(false);
   const [modalAFIsOpen, { open: modalAFOpen, close: modalAFClosed }] =
     useDisclosure(false);
@@ -37,7 +37,7 @@ function Home() {
         modalBasicIsOpen={modalBasicIsOpen}
         modalJuniorIsOpen={modalJuniorIsOpen}
         modalPlayingIsOpen={modalPlayingIsOpen}
-        modalSamplerIsOpen={modalSamplerIsOpen}
+        modalAcceleratorIsOpen={modalAcceleratorIsOpen}
         modalAFIsOpen={modalAFIsOpen}
         modalFittingIsOpen={modalFittingIsOpen}
         openModalBasic={modalBasicOpen}
@@ -46,8 +46,8 @@ function Home() {
         closeModalJunior={modalJuniorClosed}
         openModalPlaying={modalPlayingOpen}
         closeModalPlaying={modalPlayingClosed}
-        openModalSampler={modalSamplerOpen}
-        closeModalSampler={modalSamplerClosed}
+        openModalAccelerator={modalAcceleratorOpen}
+        closeModalAccelerator={modalAcceleratorClosed}
         openModalAF={modalAFOpen}
         closeModalAF={modalAFClosed}
         openModalFitting={modalFittingOpen}
