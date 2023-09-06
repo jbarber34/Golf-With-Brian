@@ -165,7 +165,7 @@ export default function About() {
             src='../../gwb_phil.jpg'
             width={200}
             alt='Golf with Brian Program Instructor Phil'
-            className='mb-4 rounded-md'
+            className='rounded-md'
           />
           <p>Contact Phil: </p>
           <a
