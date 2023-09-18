@@ -11,14 +11,18 @@ export default function Title() {
           Fort Myers Premium Golf Lessons and Club Fittings
         </h2>
         <div className='flex text-right justify-end'>
-          <p className='w-8/12 xl:w-1/2 confidentialInformation'>
-            There's no magic cure, let's get better together, one swing at a
-            time! <br />
-            -Brian
-          </p>
+          <div className='text-xl xl:text-2xl w-8/12 xl:w-1/2'>
+            <em>
+              "There's no magic cure, let's get better together, one swing at a
+              time!"
+            </em>
+            <br />
+            <p className='confidentialInformation'>-Brian Conine</p>
+          </div>
         </div>
 
-        <div className='grid grid-cols-1 xl:grid-cols-2 pt-12 mx-auto'>
+        {/* Sponsor logo buttons */}
+        {/* <div className='grid grid-cols-1 xl:grid-cols-2 pt-12 mx-auto'>
           <div className='xl:text-2xl w-64 mx-auto'>
             <Link href='https://www.cobragolf.com/'>
               <button className='bg-slate-900 border-solid border-2 border-slate-900 hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded-md'>
@@ -39,7 +43,7 @@ export default function Title() {
               </button>
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <div>
         {/* <img
