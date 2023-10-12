@@ -46,7 +46,12 @@ export default function Lessons({
     basic: [
       {
         title: 'Basic Lesson',
-        feature: 'One-hour golf lesson',
+        feature:
+          'One on one session with Brian Conine that offers instruction focused on the needs of the golfer.',
+      },
+      {
+        feature:
+          'The use of Trackman and a video summary with voice over are also included',
       },
     ],
     junior: [
@@ -60,11 +65,14 @@ export default function Lessons({
     ],
     playing: [
       {
-        title: 'Sampler Package',
+        title: 'Playing Lesson',
         feature: '30-minute range warm up',
       },
       {
         feature: 'Course management strategizing',
+      },
+      {
+        feature: 'Complimentary round of golf',
       },
       {
         feature: '6 complimentary golf balls',
@@ -82,10 +90,11 @@ export default function Lessons({
         feature: '"Get Off The Tee" Training (1-hour)',
       },
       {
-        feature: '"Attack Greens" Training (1-hour)',
+        subFeature:
+          'Use Trackman to focus on how you can drive the ball further.',
       },
       {
-        feature: 'One complimentary ball fitting (Titleist golf balls).',
+        feature: '100 Yards and In Training (1-hour)',
       },
     ],
     areaFocus: [
@@ -96,6 +105,9 @@ export default function Lessons({
       },
       {
         feature: 'Club specs & range session (1.5 hours)',
+      },
+      {
+        subFeature: 'Initial club specifications',
       },
       {
         feature: 'Mobility + stability training',
@@ -162,10 +174,11 @@ export default function Lessons({
         <a href='https://westminster-golf.com/' className='hover:underline'>
           The Club at Westminster
         </a>
+        and include the use of Trackman.
       </p>
       {/* New 8/12 Setup */}
       <div className='grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-96'>
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Basic Lesson
           </p>
@@ -175,6 +188,9 @@ export default function Lessons({
                 $125
               </h5>
               <p className='mb-3 font-normal text-gray-400'>One-Hour Lesson</p>
+              <p className='mb-3 font-normal text-gray-400'>
+                Video Summary with Voice-Over
+              </p>
             </div>
             <LessonPlanModal
               content={lessonPackages.basic}
@@ -185,7 +201,7 @@ export default function Lessons({
           </div>
         </div>
 
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-96'>
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Junior (16 & Under)
           </p>
@@ -207,7 +223,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-96'>
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Playing Lesson
           </p>
@@ -220,7 +236,10 @@ export default function Lessons({
               Course Management Strategizing
             </p>
             <p className='mb-3 font-normal text-gray-400'>
-              Complementary Golf Balls
+              Complimentary Round of Golf
+            </p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Complimentary Golf Balls
             </p>
             <p className='mb-3 font-normal text-gray-400'>
               Complimentary Lunch
@@ -246,7 +265,7 @@ export default function Lessons({
               'Get Off The Tee' Training
             </p>
             <p className='mb-3 font-normal text-gray-400'>
-              'Attack Greens' Training
+              100 Yards and In Training
             </p>
             <LessonPlanModal
               content={lessonPackages.sampler}
@@ -264,7 +283,9 @@ export default function Lessons({
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
               $500/group
             </h5>
-            <p className='mb-3 font-normal text-gray-400'>Full Bag Fitting</p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Club Specs + Range Session
+            </p>
             <p className='mb-3 font-normal text-gray-400'>
               Mobility + Stability Training
             </p>
