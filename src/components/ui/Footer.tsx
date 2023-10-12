@@ -20,7 +20,7 @@ export default function Footer() {
           <div>
             <img
               //   className='image-center'
-              src='/GWB_Grey.png'
+              src='/Golf_With_Brian_Gray.png'
               width={200}
               alt='Golf with Brian'
             />
@@ -29,7 +29,7 @@ export default function Footer() {
             <div className='mb-4 mt-12 lg:mx-auto lg:max-w-screen-sm'>
               <h1 className='text-center ml-2 mt-2 text-xl text-white'>
                 {' '}
-                Contact Us{' '}
+                Contact Brian{' '}
               </h1>
               <table cellPadding={6} className='m-auto text-white'>
                 <tbody>
@@ -37,30 +37,49 @@ export default function Footer() {
                     <td>
                       <FontAwesomeIcon
                         icon={faPhone}
-                        className='fa-lg text-gwbGreen'
+                        className='fa-lg text-golfWithBrianGreen'
                       />
                     </td>
-                    <td className='text-sm'>(808) 352-3318</td>
+                    <td className='text-sm'>
+                      {' '}
+                      <a href='tel:8083523318' className='hover:underline'>
+                        (808) 352-3318
+                      </a>{' '}
+                    </td>
                   </tr>
                   <tr>
                     <td>
                       <FontAwesomeIcon
                         icon={faStore}
-                        className='fa-lg text-gwbGreen'
+                        className='fa-lg text-golfWithBrianGreen'
                       />
                     </td>
                     <td className='text-sm'>
-                      555 Golf St. <br /> Fort Myers, FL 33905
+                      <a
+                        href='http://maps.google.com/?q=2199 Berkley Way, Lehigh Acres, Florida 33973'
+                        className='hover:underline'
+                      >
+                        The Club at Westminster
+                        <br /> 2199 Berkley Way <br /> Lehigh Acres, FL 33973
+                      </a>
                     </td>
                   </tr>
                   <tr>
                     <td>
                       <FontAwesomeIcon
                         icon={faEnvelope}
-                        className='fa-lg text-gwbGreen'
+                        className='fa-lg text-golfWithBrianGreen'
                       />
                     </td>
-                    <td className='text-sm'>Brian.conine@golfwithbrian.com</td>
+                    <td className='text-sm'>
+                      {' '}
+                      <a
+                        href='mailto:Brian.conine@golfwithbrian.com?subject=Golf with Brian - Information Request'
+                        className='hover:underline'
+                      >
+                        Brian.conine@golfwithbrian.com
+                      </a>{' '}
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -71,7 +90,7 @@ export default function Footer() {
                 >
                   <FontAwesomeIcon
                     icon={faInstagram}
-                    className='fa-xl text-gwbGreen'
+                    className='fa-xl text-golfWithBrianGreen'
                   />
                 </a>
                 <a
@@ -80,19 +99,19 @@ export default function Footer() {
                 >
                   <FontAwesomeIcon
                     icon={faFacebook}
-                    className='fa-xl text-gwbGreen'
+                    className='fa-xl text-golfWithBrianGreen'
                   />
                 </a>
                 <a className='p-3' href='https://yelp.to/A8bKkCzh5sb'>
                   <FontAwesomeIcon
                     icon={faYelp}
-                    className='fa-xl text-gwbGreen'
+                    className='fa-xl text-golfWithBrianGreen'
                   />{' '}
                 </a>
               </div>
             </div>
           </div>
-          <div className='mb-24 mt-6 lg:mx-auto lg:max-w-screen-sm'>
+          {/* <div className='mb-24 mt-6 lg:mx-auto lg:max-w-screen-sm'>
             <h1 className='text-center ml-2 mt-2 text-xl text-white'>
               Store Hours
             </h1>
@@ -102,7 +121,7 @@ export default function Footer() {
                   <td>
                     <FontAwesomeIcon
                       icon={faClock}
-                      className='fa-lg text-gwbGreen'
+                      className='fa-lg text-golfWithBrianGreen'
                     />
                   </td>
                   <td className='text-sm'>
@@ -113,10 +132,21 @@ export default function Footer() {
                 </tr>
               </tbody>
             </table>
+          </div> */}
+          <div className='p-2 bg-white'>
+            <img
+              //   className='image-center'
+              src='/the_club_at_westminster.png'
+              width={250}
+              alt='The Club at Westminster'
+            />
           </div>
         </div>
         <footer className='bg-brianBlue text-white text-center text-xs pb-2'>
-          <FontAwesomeIcon icon={faCopyright} className='fa-xs text-gwbGreen' />{' '}
+          <FontAwesomeIcon
+            icon={faCopyright}
+            className='fa-xs text-golfWithBrianGreen'
+          />{' '}
           2022 Golf with Brian
         </footer>
       </div>
