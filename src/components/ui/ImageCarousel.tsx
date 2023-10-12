@@ -19,7 +19,7 @@ const images = [
   },
   { url: '/CarouselImages/brian_swing.png', title: 'Brian swinging club' },
   { url: '/CarouselImages/client_swing1.png', title: 'Client lesson' },
-  { url: '/CarouselImages/image2.png', title: 'Brian and Pro Golfer' },
+  { url: '/CarouselImages/image2.png', title: 'Brian and Pei Yung Chien' },
   { url: '/CarouselImages/titleist_balls.png', title: 'Titleist Sponsor' },
 ];
 
@@ -29,7 +29,7 @@ export default function ImageCarousel() {
       <AspectRatio ratio={720 / 1080} sx={{ maxWidth: 400 }} mx='auto'>
         <Image src={i.url} />
       </AspectRatio>
-      <p className='text-center'>{i.title}</p>
+      {/* <p className='text-center'>{i.title}</p> */}
     </Carousel.Slide>
   ));
 
