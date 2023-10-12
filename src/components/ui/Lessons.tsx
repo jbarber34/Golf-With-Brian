@@ -57,10 +57,16 @@ export default function Lessons({
     junior: [
       {
         title: 'Junior Training Package',
-        feature: '2 one-hour on-range sessions',
+        feature: '4 Sessions',
       },
       {
-        feature: '9-hole playing lesson',
+        subFeature: '2 one-hour on-range lessons',
+      },
+      {
+        subFeature: '1-hour mobility and stability training with Phil Bobst',
+      },
+      {
+        subFeature: '9-hole playing lesson',
       },
     ],
     playing: [
@@ -187,18 +193,17 @@ export default function Lessons({
       </p>
       {/* New 8/12 Setup */}
       <div className='grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
-        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             One and Done
           </p>
-          <div className='p-5 relative h-full'>
+          <div className='p-5 relative h-full lg:mb-24'>
             <div>
               <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
                 $125
               </h5>
-              <p className='mb-3 font-normal text-gray-400'>One-Hour Lesson</p>
-              <p className='mb-3 font-normal text-gray-400'>
-                Video Summary with Voice-Over
+              <p className='text-xl mb-3 font-normal text-gray-400'>
+                When you only need one lesson, we've got you
               </p>
             </div>
             <LessonPlanModal
@@ -210,7 +215,7 @@ export default function Lessons({
           </div>
         </div>
 
-        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Junior (16 & Under)
           </p>
@@ -218,11 +223,8 @@ export default function Lessons({
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
               $200
             </h5>
-            <p className='mb-3 font-normal text-gray-400'>
-              2 On-Range Sessions
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>
-              9-Hole Playing Lesson
+            <p className='text-xl mb-3 font-normal text-gray-400'>
+              Get your junior playing their best golf
             </p>
             <LessonPlanModal
               content={lessonPackages.junior}
@@ -232,7 +234,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Playing Lesson
           </p>
@@ -240,18 +242,8 @@ export default function Lessons({
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
               $250
             </h5>
-            <p className='mb-3 font-normal text-gray-400'>Range Warm-Up</p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Course Management Strategizing
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Complimentary Round of Golf
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Complimentary Golf Balls
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Complimentary Lunch
+            <p className='text-xl mb-3 font-normal text-gray-400'>
+              Play a round of golf with Brian and learn how to lower your score
             </p>
             <LessonPlanModal
               content={lessonPackages.playing}
@@ -261,20 +253,16 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Accelerator Package
           </p>
-          <div className='p-5 relative h-full'>
+          <div className='p-5 relative h-full lg:mb-24'>
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
               $300
             </h5>
-            <p className='mb-3 font-normal text-gray-400'>Full Bag Fitting</p>
-            <p className='mb-3 font-normal text-gray-400'>
-              'Get Off The Tee' Training
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>
-              100 Yards and In Training
+            <p className='text-xl mb-3 font-normal text-gray-400'>
+              Just like the title says, accelerate your game to the next level
             </p>
             <LessonPlanModal
               content={lessonPackages.accelerator}
@@ -284,7 +272,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
+        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Area Focus Training
           </p>
@@ -292,19 +280,9 @@ export default function Lessons({
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
               $500/Area <em className='text-sm'>* Most Popular</em>
             </h5>
-            <p className='mb-3 font-normal text-gray-400'>
-              Club Specs + Range Session
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Mobility + Stability Training
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>Range Lesson</p>
-            <p className='mb-3 font-normal text-gray-400'>On-Course Lesson</p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Session Overview Material + Free Merchandise
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Choose from 1 of 5 groups
+            <p className='text-xl mb-3 font-normal text-gray-400'>
+              Our <em>BEST VALUE </em> program to build and develop the part of
+              your game you struggle with the most
             </p>
             <div>
               <LessonPlanModal
@@ -316,7 +294,7 @@ export default function Lessons({
             </div>
           </div>
         </div>
-        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-100'>
+        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Fittings
           </p>
@@ -324,14 +302,8 @@ export default function Lessons({
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
               Pricing Varies
             </h5>
-            <p className='mb-3 font-normal text-gray-400'>Full Bag</p>
-            <p className='mb-3 font-normal text-gray-400'>Irons</p>
-            <p className='mb-3 font-normal text-gray-400'>Woods</p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Putter (Free item!)
-            </p>
-            <p className='mb-3 font-normal text-gray-400'>
-              Ball - Titleist (Free item!)
+            <p className='text-xl mb-3 font-normal text-gray-400'>
+              From just your ball to a full bag, we've got you covered
             </p>
             <LessonPlanModal
               content={lessonPackages.fitting}

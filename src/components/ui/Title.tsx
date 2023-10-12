@@ -6,10 +6,18 @@ export default function Title() {
   return (
     <div className='py-16 relative text-white title-image'>
       <div className='absolute inset-0 bg-brianBlue opacity-80'></div>
-      <div className='order-2 lg:order-1 pt-16 m-auto mt-12 md:mt-24 lg:mt-28 text-3xl xl:text-5xl w-2/3 font-extrabold xl:col-span-2 text-center relative'>
-        <h2>
-          There's no magic cure, let's get better together, one swing at a time!
+      <div className='order-2 lg:order-1 pt-16 m-auto mt-12 md:mt-24 lg:mt-28  w-10/12 font-extrabold xl:col-span-2 text-center relative'>
+        <h2 className='text-3xl xl:text-5xl pb-4'>
+          Fort Myers Premium Golf Lessons and Club Fittings
         </h2>
+        <div className='flex text-right justify-end'>
+          <p className='w-8/12 xl:w-1/2 confidentialInformation'>
+            There's no magic cure, let's get better together, one swing at a
+            time! <br />
+            -Brian
+          </p>
+        </div>
+
         <div className='grid grid-cols-1 xl:grid-cols-2 pt-12 mx-auto'>
           <div className='xl:text-2xl w-64 mx-auto'>
             <Link href='https://www.cobragolf.com/'>

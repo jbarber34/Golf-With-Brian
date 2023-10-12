@@ -45,3 +45,13 @@ body::before {
     background-position: -180px; /* Move it 10 pixels to the left on small screens */
   }
 }
+
+/* Confidential Information Font */
+@font-face {
+  font-family: 'ConfidentialInformation';
+  src: url('/Fonts/ConfidentialInformation.ttf') format('truetype');
+}
+
+.confidentialInformation {
+  font-family: 'ConfidentialInformation', sans-serif;
+}
