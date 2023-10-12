@@ -2,6 +2,22 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url("../images/GWB_Grey.png");
+  background-size: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.08;
+}
+
 #title {
   background-color: #2e4c6d;
   color: #fff;
