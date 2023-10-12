@@ -4,12 +4,12 @@ import { faGolfBall } from '@fortawesome/free-solid-svg-icons';
 
 export default function Title() {
   return (
-    <div className='bg-brianBlue text-white grid grid-cols-1 lg:grid-cols-2'>
-      <div className='mt-16 m-auto text-3xl w-2/3 font-extrabold'>
-        <h1>
-          Learn to golf from the best instructor at his apartment complex.
-        </h1>
-        <div className='grid grid-cols-1 xl:grid-cols-2 justify-between py-8'>
+    <div className='bg-brianBlue text-white grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3'>
+      <div className='pt-16 m-auto text-3xl xl:text-5xl w-2/3 font-extrabold xl:col-span-2'>
+        <h2>
+          There's no magic cure, let's get better together, one day at a time!
+        </h2>
+        <div className='grid grid-cols-1 xl:grid-cols-2 justify-between pt-12'>
           <div className='xl:text-2xl w-64'>
             <Link href='https://www.cobragolf.com/'>
               <button className='bg-slate-900 border-solid border-2 border-slate-900 hover:bg-twinsGold text-white font-bold py-2 px-4 rounded-md'>
