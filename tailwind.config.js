@@ -7,6 +7,7 @@ module.exports = {
         brianBlue: '#2e4c6d',
         brightBlue: '#396eb0',
         golfWithBrianGreen: '#59A537',
+        golfWithBrianRed: '#c02c25',
       },
       borderWidth: {
         16: '16px',
@@ -19,6 +20,14 @@ module.exports = {
       margin: {
         120: '35rem',
         134: '40rem',
+      },
+      height: {
+        98: '26rem',
+        100: '28rem',
+        104: '32rem',
+        108: '36rem',
+        112: '40rem',
+        116: '44rem',
       },
       keyframes: {
         wiggle: {
