@@ -27,3 +27,21 @@ body::before {
   background-attachment: fixed;
   opacity: 0.08;
 }
+
+/* Title Section */
+.title-image {
+  /* margin-top: 50px; */
+  background-image: url('../public/CarouselImages/gwb_sponsored_golfer4.jpg');
+  background-size: cover;
+  background-color: '#2e4c6d';
+  background-repeat: no-repeat;
+  background-position: center 85%;
+  height: 750px;
+}
+
+/* Media query for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 640px) {
+  .title-image {
+    background-position: -180px; /* Move it 10 pixels to the left on small screens */
+  }
+}
