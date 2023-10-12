@@ -187,7 +187,7 @@ export default function Lessons({
       </p>
       {/* New 8/12 Setup */}
       <div className='grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-98'>
+        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Basic Lesson
           </p>
@@ -210,7 +210,7 @@ export default function Lessons({
           </div>
         </div>
 
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-98'>
+        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Junior (16 & Under)
           </p>
@@ -232,7 +232,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-98'>
+        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Playing Lesson
           </p>
@@ -261,7 +261,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-100'>
+        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Sampler Package
           </p>
@@ -284,7 +284,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-100'>
+        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Area Focus Training
           </p>
@@ -316,7 +316,7 @@ export default function Lessons({
             </div>
           </div>
         </div>
-        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-100'>
+        <div className='bg-white border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Fittings
           </p>
