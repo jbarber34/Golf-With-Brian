@@ -4,6 +4,7 @@ import Testimonials from '~/components/ui/Testimonials';
 import Title from '~/components/ui/Title';
 import Lessons from '~/components/ui/Lessons';
 import Sponsors from '~/components/ui/Sponsors';
+import ImageCarousel from '~/components/ui/ImageCarousel';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       {/* <Services /> */}
       <Testimonials />
       <Lessons />
+      <ImageCarousel />
       <Sponsors />
     </div>
   );
