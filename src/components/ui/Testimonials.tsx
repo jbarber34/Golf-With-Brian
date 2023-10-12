@@ -14,6 +14,10 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export default function Testimonials() {
   return (
     <div className='grid sm:grid-flow-col mt-12'>
+      <meta
+        name='Golf Lesson Client Testimonials'
+        content='This section offers feedback from Golf with Brian Clients. Brian has helped implement a swing overhaul, with an easy to understand coaching style and ability to fit players for clubs to fit their golf program.'
+      />
       <div>
         <div className='flex items-center justify-between w-full z-0'>
           <div className='w-1/3 bg-white h-full' />
@@ -35,8 +39,8 @@ export default function Testimonials() {
               What our customers are saying
             </h1>
             <div
-              className='flex justify-between max-w-min m-auto items-center mt-4 before:inline-block before:md:w-52 before:sm:w-40 before:w-24 before:h-1 before:bg-gwbGreen before:mr-8
-            after:inline-block after:md:w-52 after:sm:w-40 after:w-24 after:h-1 after:bg-gwbGreen after:ml-8
+              className='flex justify-between max-w-min m-auto items-center mt-4 before:inline-block before:md:w-52 before:sm:w-40 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mr-8
+            after:inline-block after:md:w-52 after:sm:w-40 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:ml-8
 '
             >
               <i>
@@ -129,7 +133,7 @@ export default function Testimonials() {
                           in the game and now I know why. You shouldn't be
                           afraid to ask Brian questions, he will take the time
                           to answer with deeply thought out answers. I HIGHLY
-                          recommend Brian, beginner or advance, man, women, or
+                          recommend Brian, beginner, advanced, man, women, or
                           youth, he's great with everyone!
                         </p>
                       </div>

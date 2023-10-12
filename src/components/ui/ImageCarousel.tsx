@@ -6,28 +6,51 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const images = [
-  { url: '/CarouselImages/brian_allie1.png', title: 'Brian and Allie White' },
-  { url: '/CarouselImages/brian_allie2.png', title: 'Brian and Allie White' },
-  { url: '/CarouselImages/brian_allie3.png', title: 'Brian and Allie White' },
+  {
+    url: '/CarouselImages/brian_allie1.png',
+    title: 'Brian and Allie White after a training session on the golf course',
+  },
+  {
+    url: '/CarouselImages/brian_allie2.png',
+    title:
+      'Brian and Allie White after a range session to add distance with her driver',
+  },
+  {
+    url: '/CarouselImages/brian_allie3.png',
+    title: 'Brian and Allie White after a golf tournament',
+  },
   {
     url: '/CarouselImages/brian_chrisBerman.png',
-    title: 'Brian and Chris Berman at QBE Shootout 2022',
+    title: 'Brian fitting Chris Berman for his golf clubs at QBE Shootout 2022',
   },
   {
     url: '/CarouselImages/brian_cobra.png',
-    title: 'Brian at Cobra Golf Event',
+    title: 'Brian at Cobra Golf Event fitting players for clubs',
   },
-  { url: '/CarouselImages/brian_swing.png', title: 'Brian swinging club' },
-  { url: '/CarouselImages/client_swing1.png', title: 'Client lesson' },
-  { url: '/CarouselImages/image2.png', title: 'Brian and Pei Yung Chien' },
-  { url: '/CarouselImages/titleist_balls.png', title: 'Titleist Sponsor' },
+  {
+    url: '/CarouselImages/brian_swing.png',
+    title: 'Brian on the range at The Club at Westminster in Lehigh Acres',
+  },
+  {
+    url: '/CarouselImages/client_swing1.png',
+    title:
+      'Golf with Brian working with a client in a lesson to fix (correct) their slice',
+  },
+  {
+    url: '/CarouselImages/image2.png',
+    title: 'Brian and Pei Yung Chien before an LPGA Tour event',
+  },
+  {
+    url: '/CarouselImages/titleist_balls.png',
+    title: 'Titleist Golf Balls and Cobra Golf Sponsor Gear',
+  },
 ];
 
 export default function ImageCarousel() {
   const slides = images.map((i) => (
     <Carousel.Slide key={i.url} className='my-auto text-white'>
       <AspectRatio ratio={720 / 1080} sx={{ maxWidth: 400 }} mx='auto'>
-        <Image src={i.url} />
+        <Image src={i.url} alt={i.title} />
       </AspectRatio>
       {/* <p className='text-center'>{i.title}</p> */}
     </Carousel.Slide>
@@ -37,6 +60,10 @@ export default function ImageCarousel() {
 
   return (
     <div className='bg-brianBlue xl:px-20 px-8 py-20 2xl:mx-auto relative'>
+      <meta
+        name='Golf with Brian Golf Experiences'
+        content='This section includes features and examples of the lessons Golf with Brian provides, along with the different PGA and LPGA players Brian has interacted with.'
+      />
       <Carousel
         // sx={{ maxWidth: 320 }}
         // mx='auto'

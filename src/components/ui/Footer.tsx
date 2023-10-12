@@ -15,6 +15,10 @@ import {
 export default function Footer() {
   return (
     <section id='contact'>
+      <meta
+        name='Contacting Golf with Brian'
+        content='This section offers contact information for Golf with Brian swing coaching/lessons, located in Fort Myers/Lehigh Acres Florida.'
+      />
       <div>
         <div className='bg-brianBlue grid grid-cols-3 place-items-center'>
           <div>
@@ -22,7 +26,7 @@ export default function Footer() {
               //   className='image-center'
               src='/Golf_With_Brian_Gray.png'
               width={200}
-              alt='Golf with Brian'
+              alt='Golf with Brian - Ft. Myers Logo'
             />
           </div>
           <div>
@@ -86,7 +90,7 @@ export default function Footer() {
               <div className='text-center p-2'>
                 <a
                   className='p-3'
-                  href='https://instagram.com/legacyjewelersca?igshid=YmMyMTA2M2Y='
+                  href='https://www.instagram.com/brian_conine/'
                 >
                   <FontAwesomeIcon
                     icon={faInstagram}
@@ -102,12 +106,12 @@ export default function Footer() {
                     className='fa-xl text-golfWithBrianGreen'
                   />
                 </a>
-                <a className='p-3' href='https://yelp.to/A8bKkCzh5sb'>
+                {/* <a className='p-3' href=''>
                   <FontAwesomeIcon
                     icon={faYelp}
                     className='fa-xl text-golfWithBrianGreen'
                   />{' '}
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -134,12 +138,14 @@ export default function Footer() {
             </table>
           </div> */}
           <div className='p-2 bg-white'>
-            <img
-              //   className='image-center'
-              src='/the_club_at_westminster.png'
-              width={250}
-              alt='The Club at Westminster'
-            />
+            <a href='https://westminster-golf.com/' className='hover:underline'>
+              <img
+                //   className='image-center'
+                src='/the_club_at_westminster.png'
+                width={250}
+                alt='The Club at Westminster - Lehigh Acres Logo'
+              />
+            </a>
           </div>
         </div>
         <footer className='bg-brianBlue text-white text-center text-xs pb-2'>
@@ -147,7 +153,7 @@ export default function Footer() {
             icon={faCopyright}
             className='fa-xs text-golfWithBrianGreen'
           />{' '}
-          2022 Golf with Brian
+          2023 Golf with Brian
         </footer>
       </div>
     </section>
