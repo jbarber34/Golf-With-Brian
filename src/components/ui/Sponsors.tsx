@@ -2,7 +2,13 @@ export default function Sponsors() {
   return (
     <section id='sponsors' className='pt-20 pb-40'>
       <div className='text-center'>
-        <h2 className='font-black text-5xl'>Sponsor Store</h2>
+        <h2
+          className='font-black text-5xl container-fluid text-center text-3xl mt-8
+        before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-20 before:h-1 before:bg-gwbGreen before:mb-2 before:mr-8
+        after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-20 after:h-1 after:bg-gwbGreen after:mb-2 after:ml-8'
+        >
+          Sponsor Store
+        </h2>
         {/* <p>
           Use promo code "Conine" at checkout to receive discounts for
           Aero-Swing (10%), Blue Tees (10%), and Sweet Rollz (15%).

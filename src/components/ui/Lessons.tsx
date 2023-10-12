@@ -1,7 +1,11 @@
 export default function Lessons() {
   return (
     <section id='lessons' className='my-20 text-center'>
-      <h2 className='font-black text-5xl pb-4'>
+      <h2
+        className='font-black text-5xl pb-4 container-fluid text-center text-3xl mt-8
+        before:inline-block before:xl:w-44 before:lg:w-28 before:md:w-12 before:sm:w-24 before:w-24 before:h-1 before:bg-gwbGreen before:mb-2 before:mr-8
+        after:inline-block after:xl:w-44 after:lg:w-28 after:md:w-12 after:sm:w-24 after:w-24 after:h-1 after:bg-gwbGreen after:mb-2 after:ml-8'
+      >
         A Plan for Every Golfer's Needs
       </h2>
       <p className='text-gray-500'>
