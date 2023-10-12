@@ -9,7 +9,7 @@ export default function Features() {
   return (
     <section id='brands'>
       <div className='md:px-12 py-40'>
-        <div className='grid md:grid-cols-3 sm:grid-cols-1 xl:mx-56 md:mx-2 gap-4 text-center pt-8'>
+        <div className='grid md:grid-cols-3 sm:grid-cols-1 xl:mx-56 md:mx-2 gap-4 text-center'>
           <div className='mx-auto'>
             <i>
               <FontAwesomeIcon
