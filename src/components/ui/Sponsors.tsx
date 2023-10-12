@@ -17,22 +17,22 @@ export default function Sponsors() {
           Use promo code "Conine" at checkout to receive discounts for
           Aero-Swing (10%), Blue Tees (10%), and Sweet Rollz (15%).
         </p> */}
-        <div className='lg:grid lg:grid-flow-col mx-auto mb-8 px-4 bg-brianBlue text-white w-max'>
+        <div className='grid grid-flow-col mx-auto mb-8 p-4 bg-brianBlue text-white lg:w-max'>
           <img
             src='/Golf_With_Brian_Red.png'
             alt='Golf with Brian Logo'
             width={100}
             className='my-auto'
           />
-          <div className='lg:grid lg:grid-cols-2'>
-            <div className='my-auto pl-12'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 text-sm sm:text-lg'>
+            <div className='my-auto md:pl-12 lg'>
               <p>Use promo code</p>{' '}
-              <p className='text-golfWithBrianGreen text-2xl font-extrabold'>
+              <p className='text-golfWithBrianGreen lg:text-2xl font-extrabold'>
                 "Conine"{' '}
               </p>{' '}
-              <p>at checkout to receive discounts </p>{' '}
+              <p className='pb-2 sm:pb-0'>at checkout to receive discounts </p>{' '}
             </div>
-            <div className='my-auto pl-12'>
+            <div className='my-auto sm:pl-12'>
               <div className='grid grid-cols-2'>
                 Aero-Swing: &nbsp;
                 <p className='cursiveFont text-xl'> (10%)</p>

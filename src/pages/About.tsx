@@ -188,7 +188,7 @@ export default function About() {
             phil.bobst@golfwithbrian.com
           </a>
         </div>
-        <div className='px-4 lg:px-56 pt-4 lg:pt-8 pb-8 bg-white lg:h-96'>
+        <div className='px-4 lg:px-56 pt-4 lg:pt-8 pb-8 bg-white'>
           <div className='lg:px-36 bg-white'>
             <h3
               className='container-fluid text-3xl mt-8
