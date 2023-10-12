@@ -51,7 +51,7 @@ export default function Lessons({
       },
       {
         feature:
-          'The use of Trackman and a video summary with voice over are also included',
+          'The use of Trackman and a video summary with voice over are also included.',
       },
     ],
     junior: [
@@ -78,7 +78,7 @@ export default function Lessons({
         feature: '6 complimentary golf balls',
       },
       {
-        feature: 'Lunch is on on us!',
+        feature: 'Lunch is on us!',
       },
     ],
     sampler: [
@@ -100,6 +100,9 @@ export default function Lessons({
     areaFocus: [
       {
         title: 'Area Focus Package',
+        feature: 'This package helps you improve specific areas of your game',
+      },
+      {
         feature:
           'Areas include: Irons(5-9), Wedges(PW-64\u00b0), Hybrid and Fairway Woods, Driver, and Putter',
       },
@@ -113,10 +116,13 @@ export default function Lessons({
         feature: 'Mobility + stability training',
       },
       {
+        subFeature: 'Training with Phil Bobst (TPI Level 2 Certified)',
+      },
+      {
         feature: 'Range lesson (1-hour)',
       },
       {
-        feature: 'On-course less (Approximately 1-hour)',
+        feature: 'On-course lesson (Approximately 1-hour)',
       },
       {
         feature: 'Session overview of all information covered in the lesson',
@@ -129,6 +135,9 @@ export default function Lessons({
       {
         title: 'Fittings',
         feature: 'Full Bag - $150 (1.5 hours)',
+      },
+      {
+        subFeature: 'Woods, Irons, Wedges, and Putter',
       },
       {
         feature: 'Irons - $75 (1-hour)',
@@ -157,7 +166,7 @@ export default function Lessons({
         content='This section lists the different golf lesson packages Golf with Brian offers.'
       />
       <h2
-        className='font-black text-5xl pb-4 container-fluid text-center text-3xl mt-8
+        className='font-black text-xl lg:text-5xl pb-4 container-fluid text-center text-3xl mt-8
         before:inline-block before:xl:w-44 before:lg:w-28 before:md:w-12 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
         after:inline-block after:xl:w-44 after:lg:w-28 after:md:w-12 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
       >
@@ -281,7 +290,7 @@ export default function Lessons({
           </p>
           <div className='p-5 relative h-full'>
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
-              $500/group
+              $500/Area <em className='text-sm'>* Most Popular</em>
             </h5>
             <p className='mb-3 font-normal text-gray-400'>
               Club Specs + Range Session

@@ -168,6 +168,16 @@ export default function About() {
           />
           <p>Contact Phil: </p>
           <a
+            href='tel:2392008970'
+            className='hover:underline text-brightBlue block'
+          >
+            <FontAwesomeIcon
+              icon={faPhone}
+              className='fa-lg text-golfWithBrianGreen'
+            />{' '}
+            (239) 200-8970
+          </a>
+          <a
             href='mailto:phil.bobst@golfwithbrian.com?subject=Golf with Brian - Information Request'
             className='hover:underline text-brightBlue'
           >
