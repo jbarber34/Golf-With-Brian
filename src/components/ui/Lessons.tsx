@@ -1,7 +1,7 @@
 export default function Lessons() {
   return (
     <section id='lessons' className='my-20 text-center'>
-      <h2 className='font-black text-6xl pb-4'>
+      <h2 className='font-black text-5xl pb-4'>
         A Plan for Every Golfer's Needs
       </h2>
       <p className='text-gray-500'>
