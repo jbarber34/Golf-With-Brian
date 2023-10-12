@@ -56,6 +56,34 @@ const images = [
     url: '/CarouselImages/gwb_sponsored_golfer3.jpg',
     title: 'Golf with Brian Sponsored Golfer',
   },
+  {
+    url: '/CarouselImages/gwb_sponsored_golfer4.jpg',
+    title: 'Golf with Brian Sponsored Golfer',
+  },
+  {
+    url: '/CarouselImages/gwb_sponsored_golfer5.jpg',
+    title: 'Golf with Brian Sponsored Golfer',
+  },
+  {
+    url: '/CarouselImages/gwb_sponsored_golfer6.jpg',
+    title: 'Golf with Brian Sponsored Golfer',
+  },
+  {
+    url: '/CarouselImages/gwb_lesson1.jpg',
+    title: 'Golf with Brian Lesson',
+  },
+  {
+    url: '/CarouselImages/gwb_lesson2.jpg',
+    title: 'Golf with Brian Lesson',
+  },
+  {
+    url: '/CarouselImages/gwb_lesson3.jpg',
+    title: 'Golf with Brian Lesson',
+  },
+  {
+    url: '/CarouselImages/brian_haleyMoore.jpg',
+    title: 'Brian with Haley Moore',
+  },
 ];
 
 export default function ImageCarousel() {
