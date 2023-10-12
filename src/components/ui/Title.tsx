@@ -56,7 +56,7 @@ export default function Title() {
       </div>
       <div>
         <img
-          className='m-auto mt-24 mb-8 border-solid border-4 border-neutral-50'
+          className='m-auto mt-24 mb-8 border-solid border-4 border-neutral-50 rounded'
           src='/brian_cobra.jpeg'
           width={400}
           alt='Golf with Brian Swing Coach Brian Conine'
