@@ -17,7 +17,8 @@ module.exports = {
         '5xl': '3.052rem',
       },
       margin: {
-        '134': '40rem',
+        120: '35rem',
+        134: '40rem',
       },
       keyframes: {
         wiggle: {
