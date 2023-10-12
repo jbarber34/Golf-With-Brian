@@ -11,9 +11,9 @@ interface Props {
   modalPlayingIsOpen: any;
   openModalPlaying: any;
   closeModalPlaying: any;
-  modalSamplerIsOpen: any;
-  openModalSampler: any;
-  closeModalSampler: any;
+  modalAcceleratorIsOpen: any;
+  openModalAccelerator: any;
+  closeModalAccelerator: any;
   modalAFIsOpen: any;
   openModalAF: any;
   closeModalAF: any;
@@ -32,9 +32,9 @@ export default function Lessons({
   modalPlayingIsOpen,
   openModalPlaying,
   closeModalPlaying,
-  modalSamplerIsOpen,
-  openModalSampler,
-  closeModalSampler,
+  modalAcceleratorIsOpen,
+  openModalAccelerator,
+  closeModalAccelerator,
   modalAFIsOpen,
   openModalAF,
   closeModalAF,
@@ -45,7 +45,7 @@ export default function Lessons({
   const lessonPackages = {
     basic: [
       {
-        title: 'Basic Lesson',
+        title: 'One and Done',
         feature:
           'One on one session with Brian Conine that offers instruction focused on the needs of the golfer.',
       },
@@ -81,9 +81,9 @@ export default function Lessons({
         feature: 'Lunch is on us!',
       },
     ],
-    sampler: [
+    accelerator: [
       {
-        title: 'Sampler Package',
+        title: 'Accelerator Package',
         feature: 'Full bag fitting (1.5 hours)',
       },
       {
@@ -189,7 +189,7 @@ export default function Lessons({
       <div className='grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
         <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-98'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
-            Basic Lesson
+            One and Done
           </p>
           <div className='p-5 relative h-full'>
             <div>
@@ -263,7 +263,7 @@ export default function Lessons({
         </div>
         <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700 lg:h-100'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
-            Sampler Package
+            Accelerator Package
           </p>
           <div className='p-5 relative h-full'>
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
@@ -277,10 +277,10 @@ export default function Lessons({
               100 Yards and In Training
             </p>
             <LessonPlanModal
-              content={lessonPackages.sampler}
-              open={openModalSampler}
-              close={closeModalSampler}
-              modalIsOpened={modalSamplerIsOpen}
+              content={lessonPackages.accelerator}
+              open={openModalAccelerator}
+              close={closeModalAccelerator}
+              modalIsOpened={modalAcceleratorIsOpen}
             ></LessonPlanModal>
           </div>
         </div>
