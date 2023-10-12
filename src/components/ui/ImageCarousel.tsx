@@ -27,15 +27,10 @@ const images = [
     url: '/CarouselImages/brian_cobra.png',
     title: 'Brian at Cobra Golf Event fitting players for clubs',
   },
-  {
-    url: '/CarouselImages/brian_swing.png',
-    title: 'Brian on the range at The Club at Westminster in Lehigh Acres',
-  },
-  {
-    url: '/CarouselImages/client_swing1.png',
-    title:
-      'Golf with Brian working with a client in a lesson to fix (correct) their slice',
-  },
+  // {
+  //   url: '/CarouselImages/brian_swing.png',
+  //   title: 'Brian on the range at The Club at Westminster in Lehigh Acres',
+  // },
   {
     url: '/CarouselImages/image2.png',
     title: 'Brian and Pei Yung Chien before an LPGA Tour event',
@@ -52,14 +47,14 @@ const images = [
     url: '/CarouselImages/gwb_sponsored_golfer2.jpeg',
     title: 'Golf with Brian Sponsored Golfer',
   },
-  {
-    url: '/CarouselImages/gwb_sponsored_golfer3.jpg',
-    title: 'Golf with Brian Sponsored Golfer',
-  },
-  {
-    url: '/CarouselImages/gwb_sponsored_golfer4.jpg',
-    title: 'Golf with Brian Sponsored Golfer',
-  },
+  // {
+  //   url: '/CarouselImages/gwb_sponsored_golfer3.jpg',
+  //   title: 'Golf with Brian Sponsored Golfer',
+  // },
+  // {
+  //   url: '/CarouselImages/gwb_sponsored_golfer4.jpg',
+  //   title: 'Golf with Brian Sponsored Golfer',
+  // },
   {
     url: '/CarouselImages/gwb_sponsored_golfer5.jpg',
     title: 'Golf with Brian Sponsored Golfer',
@@ -76,10 +71,10 @@ const images = [
     url: '/CarouselImages/gwb_lesson2.jpg',
     title: 'Golf with Brian Lesson',
   },
-  {
-    url: '/CarouselImages/gwb_lesson3.jpg',
-    title: 'Golf with Brian Lesson',
-  },
+  // {
+  //   url: '/CarouselImages/gwb_lesson3.jpg',
+  //   title: 'Golf with Brian Lesson',
+  // },
   {
     url: '/CarouselImages/brian_haleyMoore.jpg',
     title: 'Brian with Haley Moore',
