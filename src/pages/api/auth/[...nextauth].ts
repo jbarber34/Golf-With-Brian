@@ -29,7 +29,11 @@ const options: NextAuthOptions = {
       session.user = token.user;
       // @ts-ignore
       session.accessToken = token.access_token;
+<<<<<<< HEAD
       session.error = token.error;
+=======
+      // session.error = token.error;
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
 
       return session;
     },

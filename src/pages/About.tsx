@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default function About() {
   return (
     <div>
@@ -11,6 +12,73 @@ export default function About() {
             >
               About Brian
             </h1>
+=======
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+export default function About() {
+  return (
+    <div>
+      <div className='lg:px-36 pt-16 bg-white'>
+        <h1
+          className='container-fluid text-center text-xl lg:text-3xl mt-8
+          before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
+          after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
+        >
+          Meet Our Team
+        </h1>
+      </div>
+      <section id='aboutBrian'>
+        <meta
+          name='About Golf with Brian owner Brian Conine'
+          content='Golf with Brian specializes in striking irons better, driving the ball further, as well as players that want to "fix my slice".'
+        />
+        <div className='lg:float-left lg:mt-96 ml-12 sm:pr-4 lg:pr-0'>
+          <img
+            src='../../brian_cobra.png'
+            width={200}
+            alt='Brian on the range at The Club at Westminster'
+            className='rounded-md'
+          />
+          <p>Contact Brian: </p>
+          <a
+            href='tel:8083523318'
+            className='hover:underline text-brightBlue block'
+          >
+            <FontAwesomeIcon
+              icon={faPhone}
+              className='fa-lg text-golfWithBrianGreen'
+            />{' '}
+            (808) 352-3318
+          </a>
+          <a
+            href='mailto:brian.conine@golfwithbrian.com?subject=Golf with Brian - Information Request'
+            className='hover:underline text-brightBlue'
+          >
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className='fa-lg text-golfWithBrianGreen'
+            />{' '}
+            brian.conine@golfwithbrian.com
+          </a>
+        </div>
+        <img
+          src='../../sponsor_gear.png'
+          width={200}
+          alt='Titleist Golf Balls and Cobra Golf Sponsor Gear'
+          className='hidden lg:float-right lg:inline lg:mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0 rounded-md'
+        />
+
+        <div className='px-4 lg:px-56 py-8 pb-8 bg-white'>
+          <div className='px-4 lg:px-36 bg-white'>
+            <h3
+              className='container-fluid text-3xl mt-8
+        before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
+        after:inline-block after:lg:w-24 after:md:w-20 after:sm:w-12 after:w-12 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
+            >
+              Brian
+            </h3>
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
             <p className='py-4 bg-white indent-8'>
               Brian grew up in a small town in Upstate NY called Margaretville.
               He was a star baseball player and an honor roll student who spent
@@ -106,6 +174,68 @@ export default function About() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
+=======
+      <hr />
+      <section id='aboutPhil'>
+        <div className='lg:float-left mt-4 lg:mt-32 ml-12 sm:pr-4 lg:pr-0'>
+          <img
+            src='../../gwb_phil.jpg'
+            width={200}
+            alt='Golf with Brian Program Instructor Phil'
+            className='rounded-md'
+          />
+          <p>Contact Phil: </p>
+          <a
+            href='tel:2392008970'
+            className='hover:underline text-brightBlue block'
+          >
+            <FontAwesomeIcon
+              icon={faPhone}
+              className='fa-lg text-golfWithBrianGreen'
+            />{' '}
+            (239) 200-8970
+          </a>
+          <a
+            href='mailto:phil.bobst@golfwithbrian.com?subject=Golf with Brian - Information Request'
+            className='hover:underline text-brightBlue'
+          >
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className='fa-lg text-golfWithBrianGreen'
+            />{' '}
+            phil.bobst@golfwithbrian.com
+          </a>
+        </div>
+        <div className='px-4 lg:px-56 pt-4 lg:pt-8 pb-8 bg-white'>
+          <div className='lg:px-36 bg-white'>
+            <h3
+              className='container-fluid text-3xl mt-8
+        before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
+        after:inline-block after:lg:w-24 after:md:w-20 after:sm:w-12 after:w-12 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
+            >
+              Phil
+            </h3>
+            <p className='py-4 bg-white indent-8'>
+              As a Naples native, Phil has seen all sorts of change in the
+              growing area but one thing that hasn’t changed is how our bodies
+              work. Phil is not only TPI Level 1, but he is Level 2 TPI
+              (Titleist Performance Institute). Working with golfers for years
+              correcting their body movement but more importantly explaining to
+              them the importance of body mobility and stability throughout the
+              golf swing to produce a good golf shot.
+            </p>
+            <p className='py-4 bg-white indent-8'>
+              Phil specializes in understanding the correlation between a
+              golfer’s physical limitations and their swing flaws. With the
+              correct simple exercises Phil can eliminate those limitations and
+              correct your golf swing. Phil’s truth is, fix your body and you
+              can fix your swing!
+            </p>
+          </div>
+        </div>
+      </section>
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
     </div>
   );
 }

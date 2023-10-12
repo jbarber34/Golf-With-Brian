@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
+=======
+  font-family: 'Montserrat', sans-serif;
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
 }
 
 body::before {
@@ -10,7 +14,11 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
+<<<<<<< HEAD
   background-image: url("../images/GWB_Grey.png");
+=======
+  background-image: url('../images/Golf_With_Brian_Gray.png');
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
   background-size: 750px;
   background-repeat: no-repeat;
   background-position: center;
@@ -33,21 +41,33 @@ body::before {
 } */
 
 h1 {
+<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
+=======
+  font-family: 'Montserrat', sans-serif;
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
 h2 {
+<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
+=======
+  font-family: 'Montserrat', sans-serif;
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
 }
 
 h3 {
+<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
+=======
+  font-family: 'Montserrat', sans-serif;
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
   font-weight: 900;
   font-size: 1.5rem;
 }
@@ -62,7 +82,11 @@ p {
 }
 
 .navbar-brand {
+<<<<<<< HEAD
   font-family: "Caveat";
+=======
+  font-family: 'Caveat';
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
   font-size: 3rem;
   font-weight: bold;
 }
@@ -159,4 +183,8 @@ p {
 /* Footer */
 #footer {
   text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9

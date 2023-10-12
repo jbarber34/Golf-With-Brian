@@ -18,9 +18,16 @@
     "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^2.0.12",
     "@hookform/resolvers": "^2.9.6",
+<<<<<<< HEAD
     "@mantine/core": "^5.0.2",
     "@mantine/dates": "^5.0.2",
     "@mantine/hooks": "^5.0.2",
+=======
+    "@mantine/carousel": "^5.10.2",
+    "@mantine/core": "^5.10.2",
+    "@mantine/dates": "^5.10.2",
+    "@mantine/hooks": "^5.10.2",
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
     "@okta/okta-auth-js": "^6.7.1",
     "@prisma/client": "^3.14.0",
     "@tabler/icons": "^1.103.0",
@@ -30,10 +37,19 @@
     "@trpc/server": "^9.26.2",
     "autoprefixer": "^10.4.11",
     "dayjs": "^1.11.2",
+<<<<<<< HEAD
+=======
+    "embla-carousel-autoplay": "^7.0.9",
+    "embla-carousel-react": "^7.0.9",
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
     "jsonwebtoken": "^8.5.1",
     "next": "12.1.6",
     "next-auth": "^4.3.4",
     "plotly.js": "^2.13.3",
+<<<<<<< HEAD
+=======
+    "pnpm": "^8.7.0",
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
     "prisma": "^3.14.0",
     "pure-react-carousel": "^1.30.1",
     "react": "18.1.0",

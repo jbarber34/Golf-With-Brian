@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "short_name": "Legacy Jewelers",
   "name": "Legacy Jewelers Website",
+=======
+  "short_name": "Golf with Brian",
+  "name": "Golf with Brian Website",
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,8 +13,13 @@
       "type": "image/x-icon"
     },
     {
+<<<<<<< HEAD
       "src": "LJ_Logo_Black.jpg",
       "type": "image/jpg",
+=======
+      "src": "Golf_With_Brian_Gray.png",
+      "type": "image/png",
+>>>>>>> 5a63fcd199a380decbf1aea58bb55c3de06002a9
       "sizes": "192x192"
     }
   ],
