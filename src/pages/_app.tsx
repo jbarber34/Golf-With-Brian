@@ -12,10 +12,16 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
 import { httpLink } from '@trpc/client/links/httpLink';
 import Footer from '~/components/ui/Footer';
+import Head from 'next/head';
+import favicon from '../../public/favicon.ico';
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
     <SessionProvider session={session}>
+      <Head>
+        <link rel='shortcut icon' href={favicon.src} type='image/x-icon' />
+        <title>Golf with Brian</title>
+      </Head>
       <MantineProvider
         // emotionOptions={{ key: 'mantine', prepend: false }}
         withGlobalStyles
