@@ -12,6 +12,7 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
 import { httpLink } from '@trpc/client/links/httpLink';
 import Footer from '~/components/ui/Footer';
+import ScrollButton from '~/components/ui/ScrollButton';
 import Head from 'next/head';
 import favicon from '../../public/favicon.ico';
 
@@ -32,6 +33,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
         <Component {...pageProps} />
         {/* </Container> */}
         <Footer />
+        <ScrollButton />
       </MantineProvider>
     </SessionProvider>
   );

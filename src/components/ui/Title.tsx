@@ -7,7 +7,7 @@ export default function Title() {
     <div className='bg-brianBlue text-white grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3'>
       <div className='pt-16 m-auto text-3xl xl:text-5xl w-2/3 font-extrabold xl:col-span-2'>
         <h2>
-          There's no magic cure, let's get better together, one day at a time!
+          There's no magic cure, let's get better together, one swing at a time!
         </h2>
         <div className='grid grid-cols-1 xl:grid-cols-2 justify-between pt-12'>
           <div className='xl:text-2xl w-64'>
