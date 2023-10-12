@@ -1,12 +1,10 @@
 import Features from '~/components/ui/Features';
-// import Services from '~/components/ui/Services';
 import Testimonials from '~/components/ui/Testimonials';
 import Title from '~/components/ui/Title';
 import Lessons from '~/components/ui/Lessons';
 import Sponsors from '~/components/ui/Sponsors';
 import ImageCarousel from '~/components/ui/ImageCarousel';
 import { useDisclosure } from '@mantine/hooks';
-import mod from 'zod/lib';
 
 function Home() {
   const [modalBasicIsOpen, { open: modalBasicOpen, close: modalBasicClosed }] =
@@ -34,7 +32,6 @@ function Home() {
     <div>
       <Title />
       <Features />
-      {/* <Services /> */}
       <Testimonials />
       <Lessons
         modalBasicIsOpen={modalBasicIsOpen}
