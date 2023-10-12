@@ -60,7 +60,7 @@ export default function Footer() {
                         className='fa-lg text-gwbGreen'
                       />
                     </td>
-                    <td className='text-sm'>brian@golfwithbrian.com</td>
+                    <td className='text-sm'>Brian.conine@golfwithbrian.com</td>
                   </tr>
                 </tbody>
               </table>
@@ -76,7 +76,7 @@ export default function Footer() {
                 </a>
                 <a
                   className='p-3'
-                  href='https://m.facebook.com/YourLegacyJewelers/'
+                  href='https://www.facebook.com/golfwithbrian/'
                 >
                   <FontAwesomeIcon
                     icon={faFacebook}
