@@ -2,6 +2,18 @@ export default function About() {
   return (
     <div>
       <section id='aboutBrian'>
+        <img
+          src='../../brian_swing.png'
+          width={200}
+          alt='Brian Swinging Club'
+          className='float-left mt-96 ml-12 sm:pr-4 lg:pr-0'
+        />
+        <img
+          src='../../sponsor_gear.png'
+          width={200}
+          alt='Brian Sponsor Gear'
+          className='float-right mt-134 mr-12 sm:pl-4 lg:pl-0'
+        />
         <div className='lg:px-36 pt-12 pb-8'>
           <h1
             className='container-fluid text-center text-3xl mt-8
@@ -28,12 +40,6 @@ export default function About() {
               he also learned the proper mechanics and fundamentals of a golf
               swing and most importantly how to teach it on to others.
             </p>
-            <img
-              src='../../brian_swing.png'
-              width={200}
-              alt='Brian Swinging Club'
-              className='float-left pr-2'
-            />
             <p className='pb-4 indent-8'>
               After high school Brian joined the U.S. Army as a Combat Engineer
               and served for 5 years, 1 of those years was spent in Iraq
@@ -66,12 +72,6 @@ export default function About() {
               Sweet Rollz Putter grips which are unique and stylish putter
               grips.
             </p>
-            <img
-              src='../../sponsor_gear.png'
-              width={200}
-              alt='Brian Sponsor Gear'
-              className='float-right'
-            />
             <p className='pb-4 indent-8'>
               Brian is now branding his own name, Golf With Brian. Where he
               offers exceptional service in club and ball fittings and lessons
