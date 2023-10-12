@@ -18,15 +18,22 @@ export default function About() {
           alt='Titleist Golf Balls and Cobra Golf Sponsor Gear'
           className='float-right mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0'
         />
-        <div className='lg:px-36 pt-12 pb-8'>
+        <div className='lg:px-36 pt-12 pb-8 bg-white'>
           <h1
             className='container-fluid text-center text-3xl mt-8
         before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
         after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
           >
-            About Brian
+            Meet Our Team
           </h1>
           <div className='px-36 bg-white'>
+            <h3
+              className='container-fluid text-3xl mt-8
+        before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianRed before:mb-2 before:mr-8
+        after:inline-block after:lg:w-24 after:md:w-20 after:sm:w-12 after:w-12 after:h-1 after:bg-golfWithBrianRed after:mb-2 after:ml-8'
+            >
+              Brian
+            </h3>
             <p className='py-4 bg-white indent-8'>
               Brian grew up in a small town in Upstate NY called Margaretville.
               He was a star baseball player and an honor roll student who spent
@@ -119,6 +126,14 @@ export default function About() {
               </em>{' '}
               .
             </p>
+            <hr />
+            <h3
+              className='container-fluid text-3xl mt-8
+        before:inline-block before:lg:w-24 before:md:w-20 before:sm:w-12 before:w-12 before:h-1 before:bg-golfWithBrianRed before:mb-2 before:mr-8
+        after:inline-block after:lg:w-24 after:md:w-20 after:sm:w-12 after:w-12 after:h-1 after:bg-golfWithBrianRed after:mb-2 after:ml-8'
+            >
+              Phil
+            </h3>
           </div>
         </div>
       </section>

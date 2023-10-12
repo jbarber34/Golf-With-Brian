@@ -49,7 +49,7 @@ export function Navbar() {
                         : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-legacyGold hover:text-legacyGold'
                     }
                   >
-                    About Brian
+                    About
                   </a>
                 </Link>
                 <Link href='/#lessons'>
