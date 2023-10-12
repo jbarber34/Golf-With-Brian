@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 export default function About() {
   return (
     <div>
@@ -15,12 +18,34 @@ export default function About() {
           name='About Golf with Brian owner Brian Conine'
           content='Golf with Brian specializes in striking irons better, driving the ball further, as well as players that want to "fix my slice".'
         />
-        <img
-          src='../../brian_swing.png'
-          width={200}
-          alt='Brian on the range at The Club at Westminster'
-          className='lg:float-left lg:mt-96 ml-12 sm:pr-4 lg:pr-0'
-        />
+        <div className='lg:float-left lg:mt-96 ml-12 sm:pr-4 lg:pr-0'>
+          <img
+            src='../../brian_swing.png'
+            width={200}
+            alt='Brian on the range at The Club at Westminster'
+          />
+          <p>Contact Brian: </p>
+          <a
+            href='tel:8083523318'
+            className='hover:underline text-brightBlue block'
+          >
+            <FontAwesomeIcon
+              icon={faPhone}
+              className='fa-lg text-golfWithBrianGreen'
+            />{' '}
+            (808) 352-3318
+          </a>
+          <a
+            href='mailto:brian.conine@golfwithbrian.com?subject=Golf with Brian - Information Request'
+            className='hover:underline text-brightBlue'
+          >
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className='fa-lg text-golfWithBrianGreen'
+            />{' '}
+            brian.conine@golfwithbrian.com
+          </a>
+        </div>
         <img
           src='../../sponsor_gear.png'
           width={200}
@@ -28,7 +53,7 @@ export default function About() {
           className='hidden lg:float-right lg:inline lg:mt-134 2xl:mt-120 mr-12 sm:pl-4 lg:pl-0'
         />
 
-        <div className='px-4 lg:px-36 py-8 pb-8 bg-white'>
+        <div className='px-4 lg:px-56 py-8 pb-8 bg-white'>
           <div className='px-4 lg:px-36 bg-white'>
             <h3
               className='container-fluid text-3xl mt-8
@@ -134,13 +159,26 @@ export default function About() {
       </section>
       <hr />
       <section id='aboutPhil'>
-        <img
-          src='../../gwb_phil.jpg'
-          width={200}
-          alt='Golf with Brian Program Instructor Phil'
-          className='lg:float-left mt-4 lg:mt-32 ml-12 sm:pr-4 lg:pr-0'
-        />
-        <div className='px-4 lg:px-36 pt-4 lg:pt-8 pb-8 bg-white'>
+        <div className='lg:float-left mt-4 lg:mt-32 ml-12 sm:pr-4 lg:pr-0'>
+          <img
+            src='../../gwb_phil.jpg'
+            width={200}
+            alt='Golf with Brian Program Instructor Phil'
+            className='mb-4'
+          />
+          <p>Contact Phil: </p>
+          <a
+            href='mailto:phil.bobst@golfwithbrian.com?subject=Golf with Brian - Information Request'
+            className='hover:underline text-brightBlue'
+          >
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className='fa-lg text-golfWithBrianGreen'
+            />{' '}
+            phil.bobst@golfwithbrian.com
+          </a>
+        </div>
+        <div className='px-4 lg:px-56 pt-4 lg:pt-8 pb-8 bg-white lg:h-96'>
           <div className='lg:px-36 bg-white'>
             <h3
               className='container-fluid text-3xl mt-8
