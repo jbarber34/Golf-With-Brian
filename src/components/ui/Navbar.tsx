@@ -63,17 +63,6 @@ export function Navbar() {
                     Lessons
                   </a>
                 </Link>
-                <Link href='/#contact'>
-                  <a
-                    className={
-                      router.pathname == '/#contact'
-                        ? 'inline-flex items-center border-b-2 border-legacyGold px-1 pt-1 text-sm font-medium text-white'
-                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-legacyGold hover:text-legacyGold'
-                    }
-                  >
-                    Contact Brian
-                  </a>
-                </Link>
                 <Link href='/#sponsors'>
                   <a
                     className={
@@ -83,6 +72,17 @@ export function Navbar() {
                     }
                   >
                     Sponsors
+                  </a>
+                </Link>
+                <Link href='/#contact'>
+                  <a
+                    className={
+                      router.pathname == '/#contact'
+                        ? 'inline-flex items-center border-b-2 border-legacyGold px-1 pt-1 text-sm font-medium text-white'
+                        : 'inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-legacyGold hover:text-legacyGold'
+                    }
+                  >
+                    Contact Brian
                   </a>
                 </Link>
               </div>
@@ -130,15 +130,6 @@ export function Navbar() {
                   Lessons
                 </a>
               </Link>
-              <Link href='/#contact'>
-                <a
-                  className={
-                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-gwbGreen hover:bg-gray-50 hover:text-gray-800'
-                  }
-                >
-                  Contact Brian
-                </a>
-              </Link>
               <Link href='/#sponsors'>
                 <a
                   className={
@@ -146,6 +137,15 @@ export function Navbar() {
                   }
                 >
                   Sponsors
+                </a>
+              </Link>
+              <Link href='/#contact'>
+                <a
+                  className={
+                    'block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white hover:border-gwbGreen hover:bg-gray-50 hover:text-gray-800'
+                  }
+                >
+                  Contact Brian
                 </a>
               </Link>
             </div>
