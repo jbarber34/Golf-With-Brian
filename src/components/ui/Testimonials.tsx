@@ -76,21 +76,26 @@ export default function Testimonials() {
                     <div className='w-full xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between'>
                       <div>
                         <h1 className='text-2xl font-semibold xl:leading-loose text-white'>
-                          Some of the best work that was done!
+                          I love the feedback that Brian gives!
                         </h1>
                         <p className='text-base font-medium leading-6 mt-4 text-gray-300'>
-                          Our core values are at the heart of all that we do.
-                          They are integrated into our daily work lives and help
-                          us to remember our customers always comes first, the
-                          last thank you should always comes from us.
+                        Brian has been coaching my son Brennen for the last 6 months. My son was an intermediate golfer 
+                        who had been in a few golf tournaments, but had also grown 8 inches in one year. We needed a swing overhaul. 
+                        Brennen had seen a few different coaches before Brian, but after just one session with Brian saw results and 
+                        really liked his coaching style. After that first session, Brian worked with me to come up with a training plan 
+                        for Brennen that worked with our schedule and budget. Brian was able to fit golf clubs for Brennen to get him using 
+                        the right equipment as he really worked on Brennen's fundamentals. I love the feedback that Brian gives, with written 
+                        reports on what he worked on, videos to show mechanics, and what my son needs to practice for the next time. Brian mixes 
+                        golf improvement tools along with just solid functional swing patterns to help Brennen improve his game. Brennen is 
+                        looking forward to his spring golf season as well as leading his 8th grade golf team. 
                         </p>
                       </div>
                       <div className='mt-8'>
                         <p className='text-base font-medium leading-4 text-white'>
-                          Anna Smith
+                          Chrysten Foley
                         </p>
                         <p className='text-base leading-4 mt-2 mb-4 text-gray-300'>
-                          Senior Web Designer
+                          Fort Myers, FL
                         </p>
                       </div>
                     </div>
