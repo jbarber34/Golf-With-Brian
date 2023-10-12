@@ -20,7 +20,7 @@ export default function Footer() {
         content='This section offers contact information for Golf with Brian swing coaching/lessons, located in Fort Myers/Lehigh Acres Florida.'
       />
       <div>
-        <div className='bg-brianBlue grid grid-flow-cols sm:grid-cols-3 place-items-center'>
+        <div className='bg-brianBlue grid grid-flow-cols sm:grid-cols-3 place-items-center mt-8'>
           <div>
             <img
               //   className='image-center'
