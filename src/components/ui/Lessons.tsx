@@ -2,91 +2,139 @@ import React from 'react';
 import LessonPlanModal from './LessonPlanModal';
 
 interface Props {
-  modalThreeIsOpen: any;
-  openModalThree: any;
-  closeModalThree: any;
-  modalSixIsOpen: any;
-  openModalSix: any;
-  closeModalSix: any;
-  modalTenIsOpen: any;
-  openModalTen: any;
-  closeModalTen: any;
+  modalBasicIsOpen: any;
+  openModalBasic: any;
+  closeModalBasic: any;
+  modalJuniorIsOpen: any;
+  openModalJunior: any;
+  closeModalJunior: any;
+  modalPlayingIsOpen: any;
+  openModalPlaying: any;
+  closeModalPlaying: any;
+  modalSamplerIsOpen: any;
+  openModalSampler: any;
+  closeModalSampler: any;
+  modalAFIsOpen: any;
+  openModalAF: any;
+  closeModalAF: any;
+  modalFittingIsOpen: any;
+  openModalFitting: any;
+  closeModalFitting: any;
 }
 
 export default function Lessons({
-  modalThreeIsOpen,
-  openModalThree,
-  closeModalThree,
-  modalSixIsOpen,
-  openModalSix,
-  closeModalSix,
-  modalTenIsOpen,
-  openModalTen,
-  closeModalTen,
+  modalBasicIsOpen,
+  openModalBasic,
+  closeModalBasic,
+  modalJuniorIsOpen,
+  openModalJunior,
+  closeModalJunior,
+  modalPlayingIsOpen,
+  openModalPlaying,
+  closeModalPlaying,
+  modalSamplerIsOpen,
+  openModalSampler,
+  closeModalSampler,
+  modalAFIsOpen,
+  openModalAF,
+  closeModalAF,
+  modalFittingIsOpen,
+  openModalFitting,
+  closeModalFitting,
 }: Props) {
   const lessonPackages = {
-    three: [
+    basic: [
       {
-        title: '3-Lesson Package',
-        feature:
-          'Includes Trackman Launch monitor for accurate readings and better understanding of how we are going to improve your game.',
-      },
-      {
-        feature:
-          'An initial spec out to show your before and after (video and numbers).',
-      },
-      {
-        feature: 'One free round of golf during use of package.',
-      },
-      {
-        feature:
-          "If you eat at the restaurant one time during your package and text me a pic of the receipt. I'll reimburse you $32.",
+        title: 'Basic Lesson',
+        feature: 'One-hour golf lesson',
       },
     ],
-    six: [
+    junior: [
       {
-        title: '6-Lesson Package',
-        feature:
-          'Includes Trackman Launch monitor for accurate readings and better understanding of how we are going to improve your game.',
+        title: 'Junior Training Package',
+        feature: '2 one-hour on-range sessions',
       },
       {
-        feature:
-          'An initial spec out to show your before and after (video and numbers).',
+        feature: '9-hole playing lesson',
+      },
+    ],
+    playing: [
+      {
+        title: 'Sampler Package',
+        feature: '30-minute range warm up',
       },
       {
-        feature: 'Two free rounds of golf during use of package.',
+        feature: 'Course management strategizing',
+      },
+      {
+        feature: '6 complimentary golf balls',
+      },
+      {
+        feature: 'Lunch is on on us!',
+      },
+    ],
+    sampler: [
+      {
+        title: 'Sampler Package',
+        feature: 'Full bag fitting (1.5 hours)',
+      },
+      {
+        feature: '"Get Off The Tee" Training (1-hour)',
+      },
+      {
+        feature: '"Attack Greens" Training (1-hour)',
       },
       {
         feature: 'One complimentary ball fitting (Titleist golf balls).',
       },
+    ],
+    areaFocus: [
       {
+        title: 'Area Focus Package',
         feature:
-          "If you eat at the restaurant three times during your package and text me a pic of the receipt. I'll reimburse you $65.",
+          'Areas include: Irons(5-9), Wedges(PW-64\u00b0), Hybrid and Fairway Woods, Driver, and Putter',
+      },
+      {
+        feature: 'Club specs & range session (1.5 hours)',
+      },
+      {
+        feature: 'Mobility + stability training',
+      },
+      {
+        feature: 'Range lesson (1-hour)',
+      },
+      {
+        feature: 'On-course less (Approximately 1-hour)',
+      },
+      {
+        feature: 'Session overview of all information covered in the lesson',
+      },
+      {
+        feature: 'FREE Merchandise!',
       },
     ],
-    ten: [
+    fitting: [
       {
-        title: '10-Lesson Package',
-        feature:
-          'Includes Trackman Launch monitor for accurate readings and better understanding of how we are going to improve your game.',
+        title: 'Fittings',
+        feature: 'Full Bag - $150 (1.5 hours)',
       },
       {
-        feature:
-          'An initial spec out to show your before and after (video and numbers).',
+        feature: 'Irons - $75 (1-hour)',
       },
       {
-        feature: 'Three free rounds of golf during use of package.',
+        feature: 'Woods - $50 (1-hour)',
       },
       {
-        feature: 'One complimentary ball fitting (Titleist golf balls).',
+        feature: 'Putter - $75 (1-hour)',
       },
       {
-        feature:
-          'One complimentary on-course training. Approaching greens, course management, fairway bunkers, and lots of short game.',
+        subFeature: 'Includes FREE Sweet Rollz putter grip!',
       },
       {
-        feature:
-          "If you eat at the restaurant five times during your package and text me a pic of the receipt. I'll reimburse you $100.",
+        feature: 'Ball (Titleist) - $125 (On-course)',
+      },
+      {
+        subFeature: 'Includes FREE dozen of the golf ball you were fitted for!',
       },
     ],
   };
@@ -115,14 +163,165 @@ export default function Lessons({
           The Club at Westminster
         </a>
       </p>
+      {/* New 8/12 Setup */}
+      <div className='grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-96'>
+          <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
+            Basic Lesson
+          </p>
+          <div className='p-5 relative h-full'>
+            <div>
+              <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
+                $125
+              </h5>
+              <p className='mb-3 font-normal text-gray-400'>One-Hour Lesson</p>
+            </div>
+            <LessonPlanModal
+              content={lessonPackages.basic}
+              open={openModalBasic}
+              close={closeModalBasic}
+              modalIsOpened={modalBasicIsOpen}
+            ></LessonPlanModal>
+          </div>
+        </div>
 
-      <div
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-96'>
+          <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
+            Junior (16 & Under)
+          </p>
+          <div className='p-5 relative h-full'>
+            <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
+              $200
+            </h5>
+            <p className='mb-3 font-normal text-gray-400'>
+              2 On-Range Sessions
+            </p>
+            <p className='mb-3 font-normal text-gray-400'>
+              9-Hole Playing Lesson
+            </p>
+            <LessonPlanModal
+              content={lessonPackages.junior}
+              open={openModalJunior}
+              close={closeModalJunior}
+              modalIsOpened={modalJuniorIsOpen}
+            ></LessonPlanModal>
+          </div>
+        </div>
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-96'>
+          <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
+            Playing Lesson
+          </p>
+          <div className='p-5 relative h-full'>
+            <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
+              $250
+            </h5>
+            <p className='mb-3 font-normal text-gray-400'>Range Warm-Up</p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Course Management Strategizing
+            </p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Complementary Golf Balls
+            </p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Complimentary Lunch
+            </p>
+            <LessonPlanModal
+              content={lessonPackages.playing}
+              open={openModalPlaying}
+              close={closeModalPlaying}
+              modalIsOpened={modalPlayingIsOpen}
+            ></LessonPlanModal>
+          </div>
+        </div>
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-100'>
+          <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
+            Sampler Package
+          </p>
+          <div className='p-5 relative h-full'>
+            <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
+              $300
+            </h5>
+            <p className='mb-3 font-normal text-gray-400'>Full Bag Fitting</p>
+            <p className='mb-3 font-normal text-gray-400'>
+              'Get Off The Tee' Training
+            </p>
+            <p className='mb-3 font-normal text-gray-400'>
+              'Attack Greens' Training
+            </p>
+            <LessonPlanModal
+              content={lessonPackages.sampler}
+              open={openModalSampler}
+              close={closeModalSampler}
+              modalIsOpened={modalSamplerIsOpen}
+            ></LessonPlanModal>
+          </div>
+        </div>
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-100'>
+          <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
+            Area Focus Training
+          </p>
+          <div className='p-5 relative h-full'>
+            <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
+              $500/group
+            </h5>
+            <p className='mb-3 font-normal text-gray-400'>Full Bag Fitting</p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Mobility + Stability Training
+            </p>
+            <p className='mb-3 font-normal text-gray-400'>Range Lesson</p>
+            <p className='mb-3 font-normal text-gray-400'>On-Course Lesson</p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Session Overview Material + Free Merchandise
+            </p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Choose from 1 of 5 groups
+            </p>
+            <div>
+              <LessonPlanModal
+                content={lessonPackages.areaFocus}
+                open={openModalAF}
+                close={closeModalAF}
+                modalIsOpened={modalAFIsOpen}
+              ></LessonPlanModal>
+            </div>
+          </div>
+        </div>
+        <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700 lg:h-100'>
+          <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
+            Fittings
+          </p>
+          <div className='p-5 relative h-full'>
+            <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
+              Pricing Varies
+            </h5>
+            <p className='mb-3 font-normal text-gray-400'>Full Bag</p>
+            <p className='mb-3 font-normal text-gray-400'>Irons</p>
+            <p className='mb-3 font-normal text-gray-400'>Woods</p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Putter (Free item!)
+            </p>
+            <p className='mb-3 font-normal text-gray-400'>
+              Ball - Titleist (Free item!)
+            </p>
+            <LessonPlanModal
+              content={lessonPackages.fitting}
+              open={openModalFitting}
+              close={closeModalFitting}
+              modalIsOpened={modalFittingIsOpen}
+            ></LessonPlanModal>
+          </div>
+        </div>
+      </div>
+
+      {/* COMPARISON TABLE */}
+      {/* <div
         id='detailed-pricing'
         className='mt-8 w-11/12 mx-auto overflow-x-auto border rounded-lg shadow-md bg-gray-800 border-gray-700'
       >
         <div className='overflow-hidden min-w-max'>
           <div className='grid grid-cols-4 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white'>
             <div className='flex mx-auto'>What's Included?</div>
+            <div>Basic Lesson</div>
             <div>3-Lesson</div>
             <div>6-Lesson</div>
             <div>10-Lesson</div>
@@ -135,7 +334,7 @@ export default function Lessons({
                 view all
               </a>
               ) */}
-            </div>
+      {/* </div>
             <div>
               <svg
                 className='w-5 h-5 text-green-500 mx-auto'
@@ -184,13 +383,13 @@ export default function Lessons({
           </div>
           <div className='grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700'>
             <div className='text-gray-500 dark:text-gray-400'>
-              Trackman Monitoring
-              {/* (
+              Trackman Monitoring */}
+      {/* (
               <a href='#' className='text-blue-600 hover:underline'>
                 view demo
               </a>
               ) */}
-            </div>
+      {/* </div>
             <div>
               <svg
                 className='w-5 h-5 text-green-500 mx-auto'
@@ -389,7 +588,9 @@ export default function Lessons({
             lesson
           </div>
         </div>
-      </div>
+      </div> */}
+
+      {/* EXAMPLE CARDS */}
       {/* <div className='grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
         <div className='bg-white border rounded-lg shadow-md bg-gray-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>

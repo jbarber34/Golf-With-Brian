@@ -9,12 +9,26 @@ import { useDisclosure } from '@mantine/hooks';
 import mod from 'zod/lib';
 
 function Home() {
-  const [modalThreeIsOpen, { open: modalThreeOpen, close: modalThreeClosed }] =
+  const [modalBasicIsOpen, { open: modalBasicOpen, close: modalBasicClosed }] =
     useDisclosure(false);
-  const [modalSixIsOpen, { open: modalSixOpen, close: modalSixClosed }] =
+  const [
+    modalJuniorIsOpen,
+    { open: modalJuniorOpen, close: modalJuniorClosed },
+  ] = useDisclosure(false);
+  const [
+    modalPlayingIsOpen,
+    { open: modalPlayingOpen, close: modalPlayingClosed },
+  ] = useDisclosure(false);
+  const [
+    modalSamplerIsOpen,
+    { open: modalSamplerOpen, close: modalSamplerClosed },
+  ] = useDisclosure(false);
+  const [modalAFIsOpen, { open: modalAFOpen, close: modalAFClosed }] =
     useDisclosure(false);
-  const [modalTenIsOpen, { open: modalTenOpen, close: modalTenClosed }] =
-    useDisclosure(false);
+  const [
+    modalFittingIsOpen,
+    { open: modalFittingOpen, close: modalFittingClosed },
+  ] = useDisclosure(false);
 
   return (
     <div>
@@ -23,15 +37,24 @@ function Home() {
       {/* <Services /> */}
       <Testimonials />
       <Lessons
-        modalThreeIsOpen={modalThreeIsOpen}
-        modalSixIsOpen={modalSixIsOpen}
-        modalTenIsOpen={modalTenIsOpen}
-        openModalThree={modalThreeOpen}
-        closeModalThree={modalThreeClosed}
-        openModalSix={modalSixOpen}
-        closeModalSix={modalSixClosed}
-        openModalTen={modalTenOpen}
-        closeModalTen={modalTenClosed}
+        modalBasicIsOpen={modalBasicIsOpen}
+        modalJuniorIsOpen={modalJuniorIsOpen}
+        modalPlayingIsOpen={modalPlayingIsOpen}
+        modalSamplerIsOpen={modalSamplerIsOpen}
+        modalAFIsOpen={modalAFIsOpen}
+        modalFittingIsOpen={modalFittingIsOpen}
+        openModalBasic={modalBasicOpen}
+        closeModalBasic={modalBasicClosed}
+        openModalJunior={modalJuniorOpen}
+        closeModalJunior={modalJuniorClosed}
+        openModalPlaying={modalPlayingOpen}
+        closeModalPlaying={modalPlayingClosed}
+        openModalSampler={modalSamplerOpen}
+        closeModalSampler={modalSamplerClosed}
+        openModalAF={modalAFOpen}
+        closeModalAF={modalAFClosed}
+        openModalFitting={modalFittingOpen}
+        closeModalFitting={modalFittingClosed}
       />
       <ImageCarousel />
       <Sponsors />
