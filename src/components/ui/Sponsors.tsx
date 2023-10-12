@@ -1,13 +1,13 @@
 export default function Sponsors() {
   return (
-    <section id='sponsors' className='pt-20 pb-40'>
+    <section id='sponsors' className='pt-8 lg:pt-20 pb-8 lg:pb-40'>
       <meta
         name='Golf Sponsors'
         content='This section lists the different Golf companies that back Golf with Brian along with discounts.'
       />
       <div className='text-center'>
         <h2
-          className='font-black text-5xl container-fluid text-center text-3xl mt-8
+          className='font-black text-xl lg:text-5xl container-fluid text-center text-3xl my-8
         before:inline-block before:lg:w-48 before:md:w-40 before:sm:w-24 before:w-20 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
         after:inline-block after:lg:w-48 after:md:w-40 after:sm:w-24 after:w-20 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
         >
@@ -17,14 +17,14 @@ export default function Sponsors() {
           Use promo code "Conine" at checkout to receive discounts for
           Aero-Swing (10%), Blue Tees (10%), and Sweet Rollz (15%).
         </p> */}
-        <div className='grid grid-flow-col mx-auto mb-8 px-4 bg-brianBlue text-white w-max'>
+        <div className='lg:grid lg:grid-flow-col mx-auto mb-8 px-4 bg-brianBlue text-white w-max'>
           <img
             src='/Golf_With_Brian_Red.png'
             alt='Golf with Brian Logo'
             width={100}
             className='my-auto'
           />
-          <div className='grid grid-cols-2'>
+          <div className='lg:grid lg:grid-cols-2'>
             <div className='my-auto pl-12'>
               <p>Use promo code</p>{' '}
               <p className='text-golfWithBrianGreen text-2xl font-extrabold'>
@@ -50,7 +50,7 @@ export default function Sponsors() {
         </div>
       </div>
       <div className='md:px-12'>
-        <div className='grid grid-cols-3 sm:grid-cols-5 md:mx-40 mx-2 gap-4 text-center'>
+        <div className='grid grid-cols-3 md:mx-40 mx-2 gap-4 text-center'>
           <a href='https://www.cobragolf.com/' className='my-auto'>
             <img
               className='my-auto'

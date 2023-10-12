@@ -166,9 +166,9 @@ export default function Lessons({
         content='This section lists the different golf lesson packages Golf with Brian offers.'
       />
       <h2
-        className='font-black text-xl lg:text-5xl pb-4 container-fluid text-center text-3xl mt-8
-        before:inline-block before:xl:w-44 before:lg:w-28 before:md:w-12 before:sm:w-24 before:w-24 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:mr-8
-        after:inline-block after:xl:w-44 after:lg:w-28 after:md:w-12 after:sm:w-24 after:w-24 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:ml-8'
+        className='font-black text-xl md:text-3xl xl:text-5xl pb-4 container-fluid text-center text-3xl mt-8
+        before:inline-block before:xl:w-44 before:lg:w-28 before:md:w-24 before:sm:w-24 before:w-8 before:h-1 before:bg-golfWithBrianGreen before:mb-2 before:sm:mr-8 before:mr-2
+        after:inline-block after:xl:w-44 after:lg:w-28 after:md:w-24 after:sm:w-24 after:w-8 after:h-1 after:bg-golfWithBrianGreen after:mb-2 after:sm:ml-8 after:ml-2'
       >
         A Plan for Every Golfer's Needs
       </h2>
