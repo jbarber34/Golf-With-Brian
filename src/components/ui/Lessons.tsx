@@ -20,6 +20,9 @@ interface Props {
   modalFittingIsOpen: any;
   openModalFitting: any;
   closeModalFitting: any;
+  modalTenPackIsOpen: any;
+  openModalTenPack: any;
+  closeModalTenPack: any;
 }
 
 export default function Lessons({
@@ -41,6 +44,9 @@ export default function Lessons({
   modalFittingIsOpen,
   openModalFitting,
   closeModalFitting,
+  modalTenPackIsOpen,
+  openModalTenPack,
+  closeModalTenPack,
 }: Props) {
   const lessonPackages = {
     basic: [
@@ -164,6 +170,16 @@ export default function Lessons({
         subFeature: 'Includes FREE dozen of the golf ball you were fitted for!',
       },
     ],
+    tenPack: [
+      {
+        title: '10-Lesson Package',
+        feature:
+          '10 one-hour, one-on-one lessons with Brian Conine that focus on the needs of the golfer',
+      },
+      {
+        feature: 'Use whenever you want, lessons never expire',
+      },
+    ],
   };
   return (
     <section id='lessons' className='my-20 text-center'>
@@ -192,7 +208,7 @@ export default function Lessons({
         and include the use of Trackman.
       </p>
       {/* New 8/12 Setup */}
-      <div className='grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
+      <div className='grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
         <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             One and Done
@@ -214,12 +230,28 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-
+        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
+          <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
+            When One Isn't Enough
+          </p>
+          <div className='p-5 relative h-full'>
+            <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
+              $1,000 (Savings of $250)
+            </h5>
+            <p className='text-xl mb-3 font-normal text-gray-400'>10 Lessons</p>
+            <LessonPlanModal
+              content={lessonPackages.tenPack}
+              open={openModalTenPack}
+              close={closeModalTenPack}
+              modalIsOpened={modalTenPackIsOpen}
+            ></LessonPlanModal>
+          </div>
+        </div>
         <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Junior (16 & Under)
           </p>
-          <div className='p-5 relative h-full'>
+          <div className='p-5 relative h-full lg:mb-24'>
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
               $200
             </h5>
@@ -298,7 +330,7 @@ export default function Lessons({
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             Fittings
           </p>
-          <div className='p-5 relative h-full'>
+          <div className='p-5 relative h-full lg:mb-24'>
             <h5 className='mb-2 text-4xl font-bold tracking-tight text-white'>
               Pricing Varies
             </h5>

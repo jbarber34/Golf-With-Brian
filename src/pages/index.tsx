@@ -27,6 +27,10 @@ function Home() {
     modalFittingIsOpen,
     { open: modalFittingOpen, close: modalFittingClosed },
   ] = useDisclosure(false);
+  const [
+    modalTenPackIsOpen,
+    { open: modalTenPackOpen, close: modalTenPackClosed },
+  ] = useDisclosure(false);
 
   return (
     <div>
@@ -40,6 +44,7 @@ function Home() {
         modalAcceleratorIsOpen={modalAcceleratorIsOpen}
         modalAFIsOpen={modalAFIsOpen}
         modalFittingIsOpen={modalFittingIsOpen}
+        modalTenPackIsOpen={modalTenPackIsOpen}
         openModalBasic={modalBasicOpen}
         closeModalBasic={modalBasicClosed}
         openModalJunior={modalJuniorOpen}
@@ -52,6 +57,8 @@ function Home() {
         closeModalAF={modalAFClosed}
         openModalFitting={modalFittingOpen}
         closeModalFitting={modalFittingClosed}
+        openModalTenPack={modalTenPackOpen}
+        closeModalTenPack={modalTenPackClosed}
       />
       <ImageCarousel />
       <Sponsors />
