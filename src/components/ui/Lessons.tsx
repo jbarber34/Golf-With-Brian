@@ -1,5 +1,5 @@
 import React from 'react';
-import LessonPlanModal from './LessonPlanModal';
+import LessonCard from './LessonCard';
 
 interface Props {
   modalBasicIsOpen: any;
@@ -60,6 +60,11 @@ export default function Lessons({
           'The use of Trackman and a video summary with voice over are also included.',
       },
     ],
+    basicDetails: {
+      title: 'One and Done',
+      price: '$125',
+      description: "When you only need one lesson, we've got you",
+    },
     junior: [
       {
         title: 'Junior Training Package',
@@ -75,6 +80,11 @@ export default function Lessons({
         subFeature: '9-hole playing lesson',
       },
     ],
+    juniorDetails: {
+      title: 'Junior (16 & Under)',
+      price: '$200',
+      description: 'Get your junior playing their best golf',
+    },
     playing: [
       {
         title: 'Playing Lesson',
@@ -93,6 +103,12 @@ export default function Lessons({
         feature: 'Lunch is on us!',
       },
     ],
+    playingDetails: {
+      title: 'Playing Lesson',
+      price: '$250',
+      description:
+        'Play a round of golf with Brian and learn how to lower your score',
+    },
     accelerator: [
       {
         title: 'Accelerator Package',
@@ -109,6 +125,12 @@ export default function Lessons({
         feature: '100 Yards and In Training (1-hour)',
       },
     ],
+    acceleratorDetails: {
+      title: 'Accelerator Package',
+      price: '$300',
+      description:
+        'Just like the title says, accelerate your game to the next level',
+    },
     areaFocus: [
       {
         title: 'Area Focus Package',
@@ -143,6 +165,13 @@ export default function Lessons({
         feature: 'FREE Merchandise!',
       },
     ],
+    areaFocusDetails: {
+      title: 'Area Focus Training',
+      price: '$500/Area',
+      description:
+        'Our <em>BEST VALUE</em> program to build and develop the part of your game you struggle with the most',
+      bestValue: '* Most Popular',
+    },
     fitting: [
       {
         title: 'Fittings',
@@ -170,6 +199,11 @@ export default function Lessons({
         subFeature: 'Includes FREE dozen of the golf ball you were fitted for!',
       },
     ],
+    fittingDetails: {
+      title: 'Fittings',
+      price: 'Pricing Varies',
+      description: "From just your ball to a full bag, we've got you covered",
+    },
     tenPack: [
       {
         title: '10-Lesson Package',
@@ -180,6 +214,11 @@ export default function Lessons({
         feature: 'Use whenever you want, lessons never expire',
       },
     ],
+    tenPackDetails: {
+      title: '10-Lesson Package',
+      price: '$1,000 (Save $250)',
+      description: '10 Lessons',
+    },
   };
   return (
     <section id='lessons' className='my-20 text-center'>
@@ -209,7 +248,60 @@ export default function Lessons({
       </p>
       {/* New 8/12 Setup */}
       <div className='grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 justify-between sm:mx-8 gap-4 text-center pt-8'>
-        <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
+        <LessonCard
+          lessonContent={lessonPackages.basic}
+          lessonDetails={lessonPackages.basicDetails}
+          open={openModalBasic}
+          close={closeModalBasic}
+          modalIsOpened={modalBasicIsOpen}
+        ></LessonCard>
+        <LessonCard
+          lessonContent={lessonPackages.tenPack}
+          lessonDetails={lessonPackages.tenPackDetails}
+          open={openModalTenPack}
+          close={closeModalTenPack}
+          modalIsOpened={modalTenPackIsOpen}
+        ></LessonCard>
+        <LessonCard
+          lessonContent={lessonPackages.junior}
+          lessonDetails={lessonPackages.juniorDetails}
+          open={openModalJunior}
+          close={closeModalJunior}
+          modalIsOpened={modalJuniorIsOpen}
+        ></LessonCard>
+        <LessonCard
+          lessonContent={lessonPackages.playing}
+          lessonDetails={lessonPackages.playingDetails}
+          open={openModalPlaying}
+          close={closeModalPlaying}
+          modalIsOpened={modalPlayingIsOpen}
+        ></LessonCard>
+        <LessonCard
+          lessonContent={lessonPackages.accelerator}
+          lessonDetails={lessonPackages.acceleratorDetails}
+          open={openModalAccelerator}
+          close={closeModalAccelerator}
+          modalIsOpened={modalAcceleratorIsOpen}
+        ></LessonCard>
+        <LessonCard
+          lessonContent={lessonPackages.areaFocus}
+          lessonDetails={lessonPackages.areaFocusDetails}
+          bestValue={lessonPackages.areaFocusDetails.bestValue}
+          open={openModalAF}
+          close={closeModalAF}
+          modalIsOpened={modalAFIsOpen}
+        ></LessonCard>
+        <LessonCard
+          lessonContent={lessonPackages.fitting}
+          lessonDetails={lessonPackages.fittingDetails}
+          open={openModalFitting}
+          close={closeModalFitting}
+          modalIsOpened={modalFittingIsOpen}
+        ></LessonCard>
+      </div>
+
+      {/* OLD WAY TO DO LESSON CARD DETAILS */}
+      {/* <div className='border rounded-lg shadow-md bg-slate-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             One and Done
           </p>
@@ -230,7 +322,7 @@ export default function Lessons({
             ></LessonPlanModal>
           </div>
         </div>
-        <div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
+<div className='border rounded-lg shadow-md bg-gray-800 border-gray-700'>
           <p className='py-4 text-2xl font-black bg-gray-300 rounded-t-lg'>
             When One Isn't Enough
           </p>
@@ -344,8 +436,7 @@ export default function Lessons({
               modalIsOpened={modalFittingIsOpen}
             ></LessonPlanModal>
           </div>
-        </div>
-      </div>
+        </div> */}
 
       {/* COMPARISON TABLE */}
       {/* <div
