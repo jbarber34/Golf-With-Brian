@@ -78,6 +78,13 @@ export default function Sponsors() {
               //   className='ml-24'
             />
           </a>
+          <a href='https://tptgolf.com/' className='my-auto'>
+            <img
+              src='/tpt.png'
+              alt='TPT Golf Logo'
+              //   className='ml-24'
+            />
+          </a>
           {/* <div className='h-full bg-brianBlue text-white flex flex-col justify-between min-w-min'>
             <div className='text-center my-auto px-4 py-4'>
               <img src='/Golf_With_Brian_Red.png' alt='Golf with Brian Logo' width={175} />
