@@ -211,7 +211,19 @@ export default function Lessons({
           '10 one-hour, one-on-one lessons with Brian Conine that focus on the needs of the golfer',
       },
       {
+        feature: 'Mobility + stability training',
+      },
+      {
+        subFeature: 'Training with Phil Bobst (TPI Level 2 Certified)',
+      },
+      {
         feature: 'Use whenever you want, lessons never expire',
+      },
+      {
+        feature: 'Custom Golf with Brian hat',
+      },
+      {
+        feature: 'Puma Polo fit to you',
       },
     ],
     tenPackDetails: {
