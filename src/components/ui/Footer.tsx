@@ -46,8 +46,8 @@ export default function Footer() {
                     </td>
                     <td className='text-sm'>
                       {' '}
-                      <a href='tel:8083523318' className='hover:underline'>
-                        (808) 352-3318
+                      <a href='tel:2398392781' className='hover:underline'>
+                        (239) 839-2781
                       </a>{' '}
                     </td>
                   </tr>
