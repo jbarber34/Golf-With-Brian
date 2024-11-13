@@ -27,14 +27,14 @@ export default function About() {
           />
           <p>Contact Brian: </p>
           <a
-            href='tel:8083523318'
+            href='tel:2398392781'
             className='hover:underline text-brightBlue block'
           >
             <FontAwesomeIcon
               icon={faPhone}
               className='fa-lg text-golfWithBrianGreen'
             />{' '}
-            (808) 352-3318
+            (239) 839-2781
           </a>
           <a
             href='mailto:brian.conine@golfwithbrian.com?subject=Golf with Brian - Information Request'
