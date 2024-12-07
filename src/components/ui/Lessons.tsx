@@ -14,9 +14,9 @@ interface Props {
   modalAcceleratorIsOpen: any;
   openModalAccelerator: any;
   closeModalAccelerator: any;
-  modalAFIsOpen: any;
-  openModalAF: any;
-  closeModalAF: any;
+  modalETIsOpen: any;
+  openModalET: any;
+  closeModalET: any;
   modalFittingIsOpen: any;
   openModalFitting: any;
   closeModalFitting: any;
@@ -38,9 +38,9 @@ export default function Lessons({
   modalAcceleratorIsOpen,
   openModalAccelerator,
   closeModalAccelerator,
-  modalAFIsOpen,
-  openModalAF,
-  closeModalAF,
+  modalETIsOpen,
+  openModalET,
+  closeModalET,
   modalFittingIsOpen,
   openModalFitting,
   closeModalFitting,
@@ -131,45 +131,39 @@ export default function Lessons({
       description:
         'Just like the title says, accelerate your game to the next level',
     },
-    areaFocus: [
+    eliteTrainer: [
       {
-        title: 'Area Focus Package',
-        feature: 'This package helps you improve specific areas of your game',
-      },
-      {
+        title: 'Elite Trainer Package',
         feature:
-          'Areas include: Irons(5-9), Wedges(PW-64\u00b0), Hybrid and Fairway Woods, Driver, and Putter',
+          '5 total sessions focusing on one specific part of your game (Irons, Driver, Wedges, Putting, Bunkers, and more).',
       },
       {
-        feature: 'Club specs & range session (1.5 hours)',
+        subFeature: '1.5-hour club specification and training',
       },
       {
-        subFeature: 'Initial club specifications',
+        subFeature: '1-hour on-range lession',
       },
       {
-        feature: 'Mobility + stability training',
+        subFeature:
+          '1.5-hour mobility and body mechanics enhancement with Phil Bobst',
       },
       {
-        subFeature: 'Training with Phil Bobst (TPI Level 2 Certified)',
+        subFeature: '1-hour on-range lession',
       },
       {
-        feature: 'Range lesson (1-hour)',
+        subFeature: 'On-course playing lesson (roughly 1-hour)',
       },
       {
-        feature: 'On-course lesson (Approximately 1-hour)',
-      },
-      {
-        feature: 'Session overview of all information covered in the lesson',
+        feature: 'Video summaries after each session',
       },
       {
         feature: 'FREE Merchandise!',
       },
     ],
-    areaFocusDetails: {
-      title: 'Area Focus Training',
+    eliteTrainerDetails: {
+      title: 'Elite Trainer Package',
       price: '$500/Area',
-      description:
-        'Our <em>BEST VALUE</em> program to build and develop the part of your game you struggle with the most',
+      description: 'Train like the elites and enhance your game',
       bestValue: '* Most Popular',
     },
     fitting: [
@@ -275,6 +269,14 @@ export default function Lessons({
           modalIsOpened={modalTenPackIsOpen}
         ></LessonCard>
         <LessonCard
+          lessonContent={lessonPackages.eliteTrainer}
+          lessonDetails={lessonPackages.eliteTrainerDetails}
+          bestValue={lessonPackages.eliteTrainerDetails.bestValue}
+          open={openModalET}
+          close={closeModalET}
+          modalIsOpened={modalETIsOpen}
+        ></LessonCard>
+        <LessonCard
           lessonContent={lessonPackages.junior}
           lessonDetails={lessonPackages.juniorDetails}
           open={openModalJunior}
@@ -294,14 +296,6 @@ export default function Lessons({
           open={openModalAccelerator}
           close={closeModalAccelerator}
           modalIsOpened={modalAcceleratorIsOpen}
-        ></LessonCard>
-        <LessonCard
-          lessonContent={lessonPackages.areaFocus}
-          lessonDetails={lessonPackages.areaFocusDetails}
-          bestValue={lessonPackages.areaFocusDetails.bestValue}
-          open={openModalAF}
-          close={closeModalAF}
-          modalIsOpened={modalAFIsOpen}
         ></LessonCard>
         <LessonCard
           lessonContent={lessonPackages.fitting}
